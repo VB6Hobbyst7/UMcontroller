@@ -1,0 +1,960 @@
+ AndorNeo
+
+ Timestamp is 51ae319a (Tue Jun 04 20:27:38 2013)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000c7ccH .text                   CODE
+ 0001:0000c7d0 000015dcH .text$x                 CODE
+ 0001:0000ddb0 000011f5H .text$yc                CODE
+ 0001:0000efb0 00001106H .text$yd                CODE
+ 0002:00000000 00000104H .CRT$XCA                DATA
+ 0002:00000104 00000104H .CRT$XCL                DATA
+ 0002:00000208 00000125H .CRT$XCU                DATA
+ 0002:00000330 00000104H .CRT$XCZ                DATA
+ 0002:00000434 00000104H .CRT$XIA                DATA
+ 0002:00000538 00000104H .CRT$XIAA               DATA
+ 0002:0000063c 00000104H .CRT$XIC                DATA
+ 0002:00000740 00000104H .CRT$XIZ                DATA
+ 0002:00000850 00001948H .rdata                  DATA
+ 0002:00002198 000001c0H .rdata$debug            DATA
+ 0002:00002358 00000599H .rdata$r                DATA
+ 0002:00002900 00000164H .rdata$sxdata           DATA
+ 0002:00002a64 00000104H .rtc$IAA                DATA
+ 0002:00002b68 00000109H .rtc$IMZ                DATA
+ 0002:00002c74 00000104H .rtc$IZZ                DATA
+ 0002:00002d78 00000104H .rtc$TAA                DATA
+ 0002:00002e7c 00000109H .rtc$TMZ                DATA
+ 0002:00002f88 00000104H .rtc$TZZ                DATA
+ 0002:00003090 000007f8H .xdata$x                DATA
+ 0002:00003890 000001d0H .edata                  DATA
+ 0003:00000000 000003feH .data                   DATA
+ 0003:00000400 000003b4H .bss                    DATA
+ 0004:00000000 00000050H .idata$2                DATA
+ 0004:00000050 00000014H .idata$3                DATA
+ 0004:00000064 0000038cH .idata$4                DATA
+ 0004:000003f0 0000038cH .idata$5                DATA
+ 0004:0000077c 000015f5H .idata$6                DATA
+ 0005:00000000 00000169H .rsrc$01                DATA
+ 0005:00000170 000002ccH .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000015       ___safe_se_handler_count   00000015     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:000006f0       ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z 100016f0 f i AndorNeoDll.obj
+ 0001:00000cb0       ??$_Allocate@D@std@@YAPADIPAD@Z 10001cb0 f i AndorNeoDll.obj
+ 0001:00000d40       ??$_Allocate@U_Container_proxy@std@@@std@@YAPAU_Container_proxy@0@IPAU10@@Z 10001d40 f i AndorNeoDll.obj
+ 0001:00000de0       ??$_DebugHeapDelete@V_Facet_base@std@@@std@@YAXPAV_Facet_base@0@@Z 10001de0 f i AndorNeoDll.obj
+ 0001:00000e60       ??$_Debug_pointer@D@std@@YAXPBDPB_WI@Z 10001e60 f i AndorNeoDll.obj
+ 0001:00000ed0       ??$_Fgetc@D@std@@YA_NAADPAU_iobuf@@@Z 10001ed0 f i AndorNeoDll.obj
+ 0001:00000f50       ??$_Fputc@D@std@@YA_NDPAU_iobuf@@@Z 10001f50 f i AndorNeoDll.obj
+ 0001:00000fe0       ??$_Ungetc@D@std@@YA_NABDPAU_iobuf@@@Z 10001fe0 f i AndorNeoDll.obj
+ 0001:00001070       ??$_strdate_s@$08@@YAHAAY08D@Z 10002070 f i AndorNeoDll.obj
+ 0001:000010d0       ??$_strtime_s@$08@@YAHAAY08D@Z 100020d0 f i AndorNeoDll.obj
+ 0001:00001130       ??$addressof@D@std@@YAPADAAD@Z 10002130 f i AndorNeoDll.obj
+ 0001:00001170       ??$construct@PADAAPAD@?$_Wrap_alloc@V?$allocator@D@std@@@std@@QAEXPAPADAAPAD@Z 10002170 f i AndorNeoDll.obj
+ 0001:000011e0       ??$construct@PADAAPAD@?$allocator@D@std@@QAEXPAPADAAPAD@Z 100021e0 f i AndorNeoDll.obj
+ 0001:000012e0       ??$construct@PADAAPAD@?$allocator_traits@V?$allocator@D@std@@@std@@SAXAAV?$allocator@D@1@PAPADAAPAD@Z 100022e0 f i AndorNeoDll.obj
+ 0001:00001340       ??$construct@U_Container_proxy@std@@U12@@?$allocator@U_Container_proxy@std@@@std@@QAEXPAU_Container_proxy@1@$$QAU21@@Z 10002340 f i AndorNeoDll.obj
+ 0001:00001450       ??$destroy@PAD@?$_Wrap_alloc@V?$allocator@D@std@@@std@@QAEXPAPAD@Z 10002450 f i AndorNeoDll.obj
+ 0001:000014b0       ??$destroy@PAD@?$allocator@D@std@@QAEXPAPAD@Z 100024b0 f i AndorNeoDll.obj
+ 0001:000014f0       ??$destroy@PAD@?$allocator_traits@V?$allocator@D@std@@@std@@SAXAAV?$allocator@D@1@PAPAD@Z 100024f0 f i AndorNeoDll.obj
+ 0001:00001540       ??$destroy@U_Container_proxy@std@@@?$allocator@U_Container_proxy@std@@@std@@QAEXPAU_Container_proxy@1@@Z 10002540 f i AndorNeoDll.obj
+ 0001:00001580       ??$forward@AAPAD@std@@YAAAPADAAPAD@Z 10002580 f i AndorNeoDll.obj
+ 0001:000015c0       ??$forward@U_Container_proxy@std@@@std@@YA$$QAU_Container_proxy@0@AAU10@@Z 100025c0 f i AndorNeoDll.obj
+ 0001:00001600       ??$use_facet@V?$codecvt@DDH@std@@@std@@YAABV?$codecvt@DDH@0@ABVlocale@0@@Z 10002600 f i AndorNeoDll.obj
+ 0001:00001820       ??0?$_Iterator012@Urandom_access_iterator_tag@std@@DHPBDABDU_Iterator_base12@2@@std@@QAE@XZ 10002820 f i AndorNeoDll.obj
+ 0001:00001880       ??0?$_String_alloc@$0A@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAE@ABV?$allocator@D@1@@Z 10002880 f i AndorNeoDll.obj
+ 0001:00001930       ??0?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QAE@PBDPBU_Container_base12@1@@Z 10002930 f i AndorNeoDll.obj
+ 0001:000019f0       ??0?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QAE@PADPBU_Container_base12@1@@Z 100029f0 f i AndorNeoDll.obj
+ 0001:00001a50       ??0?$_String_val@U?$_Simple_types@D@std@@@std@@QAE@XZ 10002a50 f i AndorNeoDll.obj
+ 0001:00001ad0       ??0?$_Wrap_alloc@V?$allocator@D@std@@@std@@QAE@XZ 10002ad0 f i AndorNeoDll.obj
+ 0001:00001b30       ??0?$allocator@D@std@@QAE@XZ 10002b30 f i AndorNeoDll.obj
+ 0001:00001b70       ??0?$allocator@U_Container_proxy@std@@@std@@QAE@XZ 10002b70 f i AndorNeoDll.obj
+ 0001:00001bb0       ??0?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAE@PAU_iobuf@@@Z 10002bb0 f i AndorNeoDll.obj
+ 0001:00001c80       ??0?$basic_ofstream@DU?$char_traits@D@std@@@std@@QAE@XZ 10002c80 f i AndorNeoDll.obj
+ 0001:00001de0       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ID@Z 10002de0 f i AndorNeoDll.obj
+ 0001:00001eb0       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z 10002eb0 f i AndorNeoDll.obj
+ 0001:00001f80       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 10002f80 f i AndorNeoDll.obj
+ 0001:00002040       ??0?$fpos@H@std@@QAE@H_J@Z 10003040 f i AndorNeoDll.obj
+ 0001:000020b0       ??0?$fpos@H@std@@QAE@_J@Z  100030b0 f i AndorNeoDll.obj
+ 0001:00002120       ??0_Container_proxy@std@@QAE@XZ 10003120 f i AndorNeoDll.obj
+ 0001:00002170       ??0_Generic_error_category@std@@QAE@XZ 10003170 f i AndorNeoDll.obj
+ 0001:000021d0       ??0_Iostream_error_category@std@@QAE@XZ 100031d0 f i AndorNeoDll.obj
+ 0001:00002230       ??0_Iterator_base12@std@@QAE@XZ 10003230 f i AndorNeoDll.obj
+ 0001:00002280       ??0_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@AAV12@@Z 10003280 f i AndorNeoDll.obj
+ 0001:00002370       ??0_System_error_category@std@@QAE@XZ 10003370 f i AndorNeoDll.obj
+ 0001:000023d0       ??0error_category@std@@QAE@XZ 100033d0 f i AndorNeoDll.obj
+ 0001:00002420       ??0error_condition@std@@QAE@HABVerror_category@1@@Z 10003420 f i AndorNeoDll.obj
+ 0001:00002470       ??0sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@AAV12@@Z 10003470 f i AndorNeoDll.obj
+ 0001:000025d0       ??1?$_Iterator012@Urandom_access_iterator_tag@std@@DHPBDABDU_Iterator_base12@2@@std@@QAE@XZ 100035d0 f i AndorNeoDll.obj
+ 0001:00002620       ??1?$_String_alloc@$0A@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAE@XZ 10003620 f i AndorNeoDll.obj
+ 0001:00002680       ??1?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QAE@XZ 10003680 f i AndorNeoDll.obj
+ 0001:000026d0       ??1?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QAE@XZ 100036d0 f i AndorNeoDll.obj
+ 0001:00002720       ??1?$_String_val@U?$_Simple_types@D@std@@@std@@QAE@XZ 10003720 f i AndorNeoDll.obj
+ 0001:00002780       ??1?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAE@XZ 10003780 f i AndorNeoDll.obj
+ 0001:00002820       ??1?$basic_ofstream@DU?$char_traits@D@std@@@std@@UAE@XZ 10003820 f i AndorNeoDll.obj
+ 0001:000028d0       ??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 100038d0 f i AndorNeoDll.obj
+ 0001:00002930       ??1_Generic_error_category@std@@UAE@XZ 10003930 f i AndorNeoDll.obj
+ 0001:00002980       ??1_Iostream_error_category@std@@UAE@XZ 10003980 f i AndorNeoDll.obj
+ 0001:000029d0       ??1_Iterator_base12@std@@QAE@XZ 100039d0 f i AndorNeoDll.obj
+ 0001:00002a90       ??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@XZ 10003a90 f i AndorNeoDll.obj
+ 0001:00002b70       ??1_System_error_category@std@@UAE@XZ 10003b70 f i AndorNeoDll.obj
+ 0001:00002bc0       ??1error_category@std@@UAE@XZ 10003bc0 f i AndorNeoDll.obj
+ 0001:00002c00       ??1locale@std@@QAE@XZ      10003c00 f i AndorNeoDll.obj
+ 0001:00002c80       ??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@XZ 10003c80 f i AndorNeoDll.obj
+ 0001:00002d10       ??2@YAPAXIPAX@Z            10003d10 f i AndorNeoDll.obj
+ 0001:00002d50       ??3@YAXPAX0@Z              10003d50 f i AndorNeoDll.obj
+ 0001:00002d80       ??4CAndorNeoDll@@QAEAAV0@ABV0@@Z 10003d80 f i AndorNeoDll.obj
+ 0001:00002dc0       ??8error_category@std@@QBE_NABV01@@Z 10003dc0 f i AndorNeoDll.obj
+ 0001:00002e30       ??8error_condition@std@@QBE_NABV01@@Z 10003e30 f i AndorNeoDll.obj
+ 0001:00002ee0       ??B?$fpos@H@std@@QBE_JXZ   10003ee0 f i AndorNeoDll.obj
+ 0001:00002f30       ??Bsentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QBEPQ?$_Bool_struct@V?$basic_ostream@DU?$char_traits@D@std@@@std@@@2@HXZ 10003f30 f i AndorNeoDll.obj
+ 0001:00002fa0       ??D?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QBEABDXZ 10003fa0 f i AndorNeoDll.obj
+ 0001:000030f0       ??D?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QBEAADXZ 100040f0 f i AndorNeoDll.obj
+ 0001:00003140       ??_D?$basic_ofstream@DU?$char_traits@D@std@@@std@@QAEXXZ 10004140 f i AndorNeoDll.obj
+ 0001:000031ac       ??_E?$basic_ofstream@DU?$char_traits@D@std@@@std@@$4PPPPPPPM@A@AEPAXI@Z 100041ac f i AndorNeoDll.obj
+ 0001:000031c0       ??_G?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 100041c0 f i AndorNeoDll.obj
+ 0001:000031c0       ??_E?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 100041c0 f i AndorNeoDll.obj
+ 0001:00003230       ??_E?$basic_ofstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 10004230 f i AndorNeoDll.obj
+ 0001:00003230       ??_G?$basic_ofstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 10004230 f i AndorNeoDll.obj
+ 0001:000032b0       ??_E_Generic_error_category@std@@UAEPAXI@Z 100042b0 f i AndorNeoDll.obj
+ 0001:000032b0       ??_G_Generic_error_category@std@@UAEPAXI@Z 100042b0 f i AndorNeoDll.obj
+ 0001:00003320       ??_E_Iostream_error_category@std@@UAEPAXI@Z 10004320 f i AndorNeoDll.obj
+ 0001:00003320       ??_G_Iostream_error_category@std@@UAEPAXI@Z 10004320 f i AndorNeoDll.obj
+ 0001:00003390       ??_G_System_error_category@std@@UAEPAXI@Z 10004390 f i AndorNeoDll.obj
+ 0001:00003390       ??_E_System_error_category@std@@UAEPAXI@Z 10004390 f i AndorNeoDll.obj
+ 0001:00003400       ??_Gerror_category@std@@UAEPAXI@Z 10004400 f i AndorNeoDll.obj
+ 0001:00003400       ??_Eerror_category@std@@UAEPAXI@Z 10004400 f i AndorNeoDll.obj
+ 0001:0000346e       ?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@$4PPPPPPPM@FI@AEXXZ 1000446e f i AndorNeoDll.obj
+ 0001:00003480       ?_Adopt@_Iterator_base12@std@@QAEXPBU_Container_base12@2@@Z 10004480 f i AndorNeoDll.obj
+ 0001:00003630       ?_Alloc_proxy@?$_String_alloc@$0A@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEXXZ 10004630 f i AndorNeoDll.obj
+ 0001:00003700       ?_Chassign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXIID@Z 10004700 f i AndorNeoDll.obj
+ 0001:000037a0       ?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z 100047a0 f i AndorNeoDll.obj
+ 0001:00003a60       ?_Endwrite@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IAE_NXZ 10004a60 f i AndorNeoDll.obj
+ 0001:00003f40       ?_Eos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXI@Z 10004f40 f i AndorNeoDll.obj
+ 0001:00003fc0       ?_Free_proxy@?$_String_alloc@$0A@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEXXZ 10004fc0 f i AndorNeoDll.obj
+ 0001:000040a0       ?_Getal@?$_String_alloc@$0A@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QBE?AU?$_Wrap_alloc@V?$allocator@D@std@@@2@XZ 100050a0 f i AndorNeoDll.obj
+ 0001:00004100       ?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ 10005100 f i AndorNeoDll.obj
+ 0001:00004170       ?_Getfacet@locale@std@@QBEPBVfacet@12@I@Z 10005170 f i AndorNeoDll.obj
+ 0001:00004270       ?_Grow@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE_NI_N@Z 10005270 f i AndorNeoDll.obj
+ 0001:00004390       ?_Init@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IAEXPAU_iobuf@@W4_Initfl@12@@Z 10005390 f i AndorNeoDll.obj
+ 0001:000044c0       ?_Initcvt@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IAEXPBV?$codecvt@DDH@2@@Z 100054c0 f i AndorNeoDll.obj
+ 0001:00004560       ?_Inside@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE_NPBD@Z 10005560 f i AndorNeoDll.obj
+ 0001:000045e0       ?_Lock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAEXXZ 100055e0 f i AndorNeoDll.obj
+ 0001:00004650       ?_Myptr@?$_String_val@U?$_Simple_types@D@std@@@std@@QAEPADXZ 10005650 f i AndorNeoDll.obj
+ 0001:000046e0       ?_Myptr@?$_String_val@U?$_Simple_types@D@std@@@std@@QBEPBDXZ 100056e0 f i AndorNeoDll.obj
+ 0001:00004770       ?_Orphan_me@_Iterator_base12@std@@QAEXXZ 10005770 f i AndorNeoDll.obj
+ 0001:00004840       ?_Reset_back@?$basic_filebuf@DU?$char_traits@D@std@@@std@@AAEXXZ 10005840 f i AndorNeoDll.obj
+ 0001:000048e0       ?_Set_back@?$basic_filebuf@DU?$char_traits@D@std@@@std@@AAEXXZ 100058e0 f i AndorNeoDll.obj
+ 0001:000049c0       ?_Tidy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEX_NI@Z 100059c0 f i AndorNeoDll.obj
+ 0001:00004ad0       ?_Unlock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAEXXZ 10005ad0 f i AndorNeoDll.obj
+ 0001:00004b40       ?_Xlen@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEXXZ 10005b40 f i AndorNeoDll.obj
+ 0001:00004ba0       ?_Xran@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEXXZ 10005ba0 f i AndorNeoDll.obj
+ 0001:00004c00       ?allocate@?$_Wrap_alloc@V?$allocator@D@std@@@std@@QAEPADI@Z 10005c00 f i AndorNeoDll.obj
+ 0001:00004c60       ?allocate@?$allocator@D@std@@QAEPADI@Z 10005c60 f i AndorNeoDll.obj
+ 0001:00004cc0       ?allocate@?$allocator@U_Container_proxy@std@@@std@@QAEPAU_Container_proxy@2@I@Z 10005cc0 f i AndorNeoDll.obj
+ 0001:00004d20       ?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ID@Z 10005d20 f i AndorNeoDll.obj
+ 0001:00004df0       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z 10005df0 f i AndorNeoDll.obj
+ 0001:00004f00       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ID@Z 10005f00 f i AndorNeoDll.obj
+ 0001:00004fb0       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBD@Z 10005fb0 f i AndorNeoDll.obj
+ 0001:00005040       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z 10006040 f i AndorNeoDll.obj
+ 0001:00005140       ?assign@?$char_traits@D@std@@SAPADPADID@Z 10006140 f i AndorNeoDll.obj
+ 0001:000051a0       ?assign@?$char_traits@D@std@@SAXAADABD@Z 100061a0 f i AndorNeoDll.obj
+ 0001:000051e0       ?begin@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE?AV?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@2@XZ 100061e0 f i AndorNeoDll.obj
+ 0001:00005250       ?category@error_code@std@@QBEABVerror_category@2@XZ 10006250 f i AndorNeoDll.obj
+ 0001:00005290       ?category@error_condition@std@@QBEABVerror_category@2@XZ 10006290 f i AndorNeoDll.obj
+ 0001:000052d0       ?close@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAEPAV12@XZ 100062d0 f i AndorNeoDll.obj
+ 0001:00005390       ?close@?$basic_ofstream@DU?$char_traits@D@std@@@std@@QAEXXZ 10006390 f i AndorNeoDll.obj
+ 0001:00005410       ?copy@?$char_traits@D@std@@SAPADPADPBDI@Z 10006410 f i AndorNeoDll.obj
+ 0001:00005490       ?deallocate@?$_Wrap_alloc@V?$allocator@D@std@@@std@@QAEXPADI@Z 10006490 f i AndorNeoDll.obj
+ 0001:000054f0       ?deallocate@?$allocator@D@std@@QAEXPADI@Z 100064f0 f i AndorNeoDll.obj
+ 0001:00005550       ?deallocate@?$allocator@U_Container_proxy@std@@@std@@QAEXPAU_Container_proxy@2@I@Z 10006550 f i AndorNeoDll.obj
+ 0001:000055b0       ?default_error_condition@_System_error_category@std@@UBE?AVerror_condition@2@H@Z 100065b0 f i AndorNeoDll.obj
+ 0001:00005660       ?default_error_condition@error_category@std@@UBE?AVerror_condition@2@H@Z 10006660 f i AndorNeoDll.obj
+ 0001:000056c0       ?eof@?$char_traits@D@std@@SAHXZ 100066c0 f i AndorNeoDll.obj
+ 0001:00005700       ?eq_int_type@?$char_traits@D@std@@SA_NABH0@Z 10006700 f i AndorNeoDll.obj
+ 0001:00005760       ?equivalent@error_category@std@@UBE_NABVerror_code@2@H@Z 10006760 f i AndorNeoDll.obj
+ 0001:00005800       ?equivalent@error_category@std@@UBE_NHABVerror_condition@2@@Z 10006800 f i AndorNeoDll.obj
+ 0001:00005880       ?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@I@Z 10006880 f i AndorNeoDll.obj
+ 0001:00005900       ?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@II@Z 10006900 f i AndorNeoDll.obj
+ 0001:000059e0       ?generic_category@std@@YAABVerror_category@1@XZ 100069e0 f i AndorNeoDll.obj
+ 0001:00005a20       ?handle_error@@YAHHH@Z     10006a20 f   AndorNeoDll.obj
+ 0001:00005c70       ?imbue@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z 10006c70 f i AndorNeoDll.obj
+ 0001:00005ce0       ?length@?$char_traits@D@std@@SAIPBD@Z 10006ce0 f i AndorNeoDll.obj
+ 0001:00005d60       ?max_size@?$_Wrap_alloc@V?$allocator@D@std@@@std@@QBEIXZ 10006d60 f i AndorNeoDll.obj
+ 0001:00005dc0       ?max_size@?$allocator@D@std@@QBEIXZ 10006dc0 f i AndorNeoDll.obj
+ 0001:00005e00       ?max_size@?$allocator_traits@V?$allocator@D@std@@@std@@SAIABV?$allocator@D@2@@Z 10006e00 f i AndorNeoDll.obj
+ 0001:00005e50       ?max_size@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ 10006e50 f i AndorNeoDll.obj
+ 0001:00005ef0       ?message@_Generic_error_category@std@@UBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@H@Z 10006ef0 f i AndorNeoDll.obj
+ 0001:00005fb0       ?message@_Iostream_error_category@std@@UBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@H@Z 10006fb0 f i AndorNeoDll.obj
+ 0001:00006070       ?message@_System_error_category@std@@UBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@H@Z 10007070 f i AndorNeoDll.obj
+ 0001:00006130       ?move@?$char_traits@D@std@@SAPADPADPBDI@Z 10007130 f i AndorNeoDll.obj
+ 0001:000061c0       ?name@_Generic_error_category@std@@UBEPBDXZ 100071c0 f i AndorNeoDll.obj
+ 0001:00006200       ?name@_Iostream_error_category@std@@UBEPBDXZ 10007200 f i AndorNeoDll.obj
+ 0001:00006240       ?name@_System_error_category@std@@UBEPBDXZ 10007240 f i AndorNeoDll.obj
+ 0001:00006280       ?not_eof@?$char_traits@D@std@@SAHABH@Z 10007280 f i AndorNeoDll.obj
+ 0001:00006320       ?open@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAEPAV12@PBDHH@Z 10007320 f i AndorNeoDll.obj
+ 0001:00006470       ?open@?$basic_ofstream@DU?$char_traits@D@std@@@std@@QAEXPBDHH@Z 10007470 f i AndorNeoDll.obj
+ 0001:00006530       ?overflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHH@Z 10007530 f i AndorNeoDll.obj
+ 0001:00006bc0       ?pbackfail@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHH@Z 10007bc0 f i AndorNeoDll.obj
+ 0001:00006e10       ?seekoff@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@H@2@_JHH@Z 10007e10 f i AndorNeoDll.obj
+ 0001:00006fc0       ?seekpos@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@H@2@V32@H@Z 10007fc0 f i AndorNeoDll.obj
+ 0001:00007180       ?seekpos@?$fpos@H@std@@QBE_JXZ 10008180 f i AndorNeoDll.obj
+ 0001:000071c0       ?setbuf@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@PAD_J@Z 100081c0 f i AndorNeoDll.obj
+ 0001:000072a0       ?size@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ 100082a0 f i AndorNeoDll.obj
+ 0001:000072e0       ?state@?$fpos@H@std@@QBEHXZ 100082e0 f i AndorNeoDll.obj
+ 0001:00007320       ?sync@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHXZ 10008320 f i AndorNeoDll.obj
+ 0001:00007420       ?system_category@std@@YAABVerror_category@1@XZ 10008420 f i AndorNeoDll.obj
+ 0001:00007460       ?to_char_type@?$char_traits@D@std@@SADABH@Z 10008460 f i AndorNeoDll.obj
+ 0001:000074a0       ?to_int_type@?$char_traits@D@std@@SAHABD@Z 100084a0 f i AndorNeoDll.obj
+ 0001:000074e0       ?uflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHXZ 100084e0 f i AndorNeoDll.obj
+ 0001:00007b10       ?underflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHXZ 10008b10 f i AndorNeoDll.obj
+ 0001:00007c80       ?value@error_code@std@@QBEHXZ 10008c80 f i AndorNeoDll.obj
+ 0001:00007cc0       ?value@error_condition@std@@QBEHXZ 10008cc0 f i AndorNeoDll.obj
+ 0001:00007d00       _close_cam                 10008d00 f   AndorNeoDll.obj
+ 0001:00007d90       _get_res                   10008d90 f   AndorNeoDll.obj
+ 0001:00007ea0       _grab_image                10008ea0 f   AndorNeoDll.obj
+ 0001:000082d0       _init_cam                  100092d0 f   AndorNeoDll.obj
+ 0001:00008830       _DllMain@12                10009830 f   dllmain.obj
+ 0001:00008872       _AT_InitialiseLibrary@0    10009872 f   atcorem:atcore.dll
+ 0001:00008878       _AT_FinaliseLibrary@0      10009878 f   atcorem:atcore.dll
+ 0001:0000887e       _AT_Open@8                 1000987e f   atcorem:atcore.dll
+ 0001:00008884       _AT_Close@4                10009884 f   atcorem:atcore.dll
+ 0001:0000888a       _AT_GetInt@12              1000988a f   atcorem:atcore.dll
+ 0001:00008890       _AT_SetFloat@16            10009890 f   atcorem:atcore.dll
+ 0001:00008896       _AT_SetBool@12             10009896 f   atcorem:atcore.dll
+ 0001:0000889c       _AT_SetEnumeratedString@12 1000989c f   atcorem:atcore.dll
+ 0001:000088a2       _AT_Command@8              100098a2 f   atcorem:atcore.dll
+ 0001:000088a8       _AT_QueueBuffer@12         100098a8 f   atcorem:atcore.dll
+ 0001:000088ae       _AT_WaitBuffer@16          100098ae f   atcorem:atcore.dll
+ 0001:000088b4       _AT_Flush@4                100098b4 f   atcorem:atcore.dll
+ 0001:000088ba       ??0_Lockit@std@@QAE@H@Z    100098ba f   msvcprtd:MSVCP110D.dll
+ 0001:000088c0       ??1_Lockit@std@@QAE@XZ     100098c0 f   msvcprtd:MSVCP110D.dll
+ 0001:000088c6       ?uncaught_exception@std@@YA_NXZ 100098c6 f   msvcprtd:MSVCP110D.dll
+ 0001:000088d0       ??_U@YAPAXI@Z              100098d0 f   msvcprtd:newaop_s.obj
+ 0001:000088e2       ?_Debug_message@std@@YAXPB_W0I@Z 100098e2 f   msvcprtd:MSVCP110D.dll
+ 0001:000088e8       ??0_Container_base12@std@@QAE@XZ 100098e8 f   msvcprtd:MSVCP110D.dll
+ 0001:000088ee       ??1_Container_base12@std@@QAE@XZ 100098ee f   msvcprtd:MSVCP110D.dll
+ 0001:000088f4       ?_Orphan_all@_Container_base12@std@@QAEXXZ 100098f4 f   msvcprtd:MSVCP110D.dll
+ 0001:000088fa       ?_Xbad_alloc@std@@YAXXZ    100098fa f   msvcprtd:MSVCP110D.dll
+ 0001:00008900       ?_Xlength_error@std@@YAXPBD@Z 10009900 f   msvcprtd:MSVCP110D.dll
+ 0001:00008906       ?_Xout_of_range@std@@YAXPBD@Z 10009906 f   msvcprtd:MSVCP110D.dll
+ 0001:00008910       ??$_DebugHeapDelete@U_Fac_node@std@@@std@@YAXPAU_Fac_node@0@@Z 10009910 f i msvcprtd:locale0_implib.obj
+ 0001:00008940       ??0_Fac_node@std@@QAE@PAU01@PAV_Facet_base@1@@Z 10009940 f i msvcprtd:locale0_implib.obj
+ 0001:00008970       ??1_Fac_node@std@@QAE@XZ   10009970 f i msvcprtd:locale0_implib.obj
+ 0001:000089a0       ??1_Fac_tidy_reg_t@std@@QAE@XZ 100099a0 f i msvcprtd:locale0_implib.obj
+ 0001:000089e0       ??_G_Fac_node@std@@QAEPAXI@Z 100099e0 f i msvcprtd:locale0_implib.obj
+ 0001:00008a10       ?_Facet_Register@std@@YAXPAV_Facet_base@1@@Z 10009a10 f   msvcprtd:locale0_implib.obj
+ 0001:00008aa8       ??Bid@locale@std@@QAEIXZ   10009aa8 f   msvcprtd:MSVCP110D.dll
+ 0001:00008aae       ?_Getgloballocale@locale@std@@CAPAV_Locimp@12@XZ 10009aae f   msvcprtd:MSVCP110D.dll
+ 0001:00008ab4       ?always_noconv@codecvt_base@std@@QBE_NXZ 10009ab4 f   msvcprtd:MSVCP110D.dll
+ 0001:00008aba       ?in@?$codecvt@DDH@std@@QBEHAAHPBD1AAPBDPAD3AAPAD@Z 10009aba f   msvcprtd:MSVCP110D.dll
+ 0001:00008ac0       ?out@?$codecvt@DDH@std@@QBEHAAHPBD1AAPBDPAD3AAPAD@Z 10009ac0 f   msvcprtd:MSVCP110D.dll
+ 0001:00008ac6       ?unshift@?$codecvt@DDH@std@@QBEHAAHPAD1AAPAD@Z 10009ac6 f   msvcprtd:MSVCP110D.dll
+ 0001:00008acc       ?_Getcat@?$codecvt@DDH@std@@SAIPAPBVfacet@locale@2@PBV42@@Z 10009acc f   msvcprtd:MSVCP110D.dll
+ 0001:00008ad2       ?_Syserror_map@std@@YAPBDH@Z 10009ad2 f   msvcprtd:MSVCP110D.dll
+ 0001:00008ad8       ?_Winerror_map@std@@YAPBDH@Z 10009ad8 f   msvcprtd:MSVCP110D.dll
+ 0001:00008ade       ?good@ios_base@std@@QBE_NXZ 10009ade f   msvcprtd:MSVCP110D.dll
+ 0001:00008ae4       ?flags@ios_base@std@@QBEHXZ 10009ae4 f   msvcprtd:MSVCP110D.dll
+ 0001:00008aea       ?width@ios_base@std@@QBE_JXZ 10009aea f   msvcprtd:MSVCP110D.dll
+ 0001:00008af0       ?width@ios_base@std@@QAE_J_J@Z 10009af0 f   msvcprtd:MSVCP110D.dll
+ 0001:00008af6       ??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ 10009af6 f   msvcprtd:MSVCP110D.dll
+ 0001:00008afc       ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ 10009afc f   msvcprtd:MSVCP110D.dll
+ 0001:00008b02       ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QBE?AVlocale@2@XZ 10009b02 f   msvcprtd:MSVCP110D.dll
+ 0001:00008b08       ?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z 10009b08 f   msvcprtd:MSVCP110D.dll
+ 0001:00008b0e       ?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE_JPBD_J@Z 10009b0e f   msvcprtd:MSVCP110D.dll
+ 0001:00008b14       ?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ 10009b14 f   msvcprtd:MSVCP110D.dll
+ 0001:00008b1a       ?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ 10009b1a f   msvcprtd:MSVCP110D.dll
+ 0001:00008b20       ?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ 10009b20 f   msvcprtd:MSVCP110D.dll
+ 0001:00008b26       ?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ 10009b26 f   msvcprtd:MSVCP110D.dll
+ 0001:00008b2c       ?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD00@Z 10009b2c f   msvcprtd:MSVCP110D.dll
+ 0001:00008b32       ?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ 10009b32 f   msvcprtd:MSVCP110D.dll
+ 0001:00008b38       ?_Gndec@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ 10009b38 f   msvcprtd:MSVCP110D.dll
+ 0001:00008b3e       ?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ 10009b3e f   msvcprtd:MSVCP110D.dll
+ 0001:00008b44       ?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ 10009b44 f   msvcprtd:MSVCP110D.dll
+ 0001:00008b4a       ?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXXZ 10009b4a f   msvcprtd:MSVCP110D.dll
+ 0001:00008b50       ?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAPAD0PAH001@Z 10009b50 f   msvcprtd:MSVCP110D.dll
+ 0001:00008b56       ??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ 10009b56 f   msvcprtd:MSVCP110D.dll
+ 0001:00008b5c       ?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z 10009b5c f   msvcprtd:MSVCP110D.dll
+ 0001:00008b62       ?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z 10009b62 f   msvcprtd:MSVCP110D.dll
+ 0001:00008b68       ?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ 10009b68 f   msvcprtd:MSVCP110D.dll
+ 0001:00008b6e       ?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ 10009b6e f   msvcprtd:MSVCP110D.dll
+ 0001:00008b74       ?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDXZ 10009b74 f   msvcprtd:MSVCP110D.dll
+ 0001:00008b7a       ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ 10009b7a f   msvcprtd:MSVCP110D.dll
+ 0001:00008b80       ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z 10009b80 f   msvcprtd:MSVCP110D.dll
+ 0001:00008b86       ??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UAE@XZ 10009b86 f   msvcprtd:MSVCP110D.dll
+ 0001:00008b8c       ?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEXXZ 10009b8c f   msvcprtd:MSVCP110D.dll
+ 0001:00008b92       ?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ 10009b92 f   msvcprtd:MSVCP110D.dll
+ 0001:00008b98       ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z 10009b98 f   msvcprtd:MSVCP110D.dll
+ 0001:00008b9e       ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z 10009b9e f   msvcprtd:MSVCP110D.dll
+ 0001:00008ba4       ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ 10009ba4 f   msvcprtd:MSVCP110D.dll
+ 0001:00008baa       ?endl@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@1@AAV21@@Z 10009baa f   msvcprtd:MSVCP110D.dll
+ 0001:00008bb0       ?_Fiopen@std@@YAPAU_iobuf@@PBDHH@Z 10009bb0 f   msvcprtd:MSVCP110D.dll
+ 0001:00008bb6       ?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ 10009bb6 f   msvcprtd:MSVCP110D.dll
+ 0001:00008bbc       ?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JXZ 10009bbc f   msvcprtd:MSVCP110D.dll
+ 0001:00008bc2       ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z 10009bc2 f   msvcprtd:MSVCP110D.dll
+ 0001:00008bc8       ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z 10009bc8 f   msvcprtd:MSVCP110D.dll
+ 0001:00008bce       ??2@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z 10009bce f   msvcprtd:MSVCP110D.dll
+ 0001:00008bd4       ??3@YAXPAXABU_DebugHeapTag_t@std@@PADH@Z 10009bd4 f   msvcprtd:MSVCP110D.dll
+ 0001:00008bda       ?_DebugHeapTag_func@std@@YAABU_DebugHeapTag_t@1@XZ 10009bda f   msvcprtd:MSVCP110D.dll
+ 0001:00008be0       __purecall                 10009be0 f   MSVCRTD:MSVCR110D.dll
+ 0001:00008be6       ??2@YAPAXI@Z               10009be6 f   MSVCRTD:MSVCR110D.dll
+ 0001:00008bec       ??3@YAXPAX@Z               10009bec f   MSVCRTD:MSVCR110D.dll
+ 0001:00008c00       ___atonexitinit            10009c00 f   MSVCRTD:atonexit.obj
+ 0001:00008cb0       __onexit                   10009cb0 f   MSVCRTD:atonexit.obj
+ 0001:00008db0       _atexit                    10009db0 f   MSVCRTD:atonexit.obj
+ 0001:00008ddc       __invalid_parameter        10009ddc f   MSVCRTD:MSVCR110D.dll
+ 0001:00008de2       _memcpy                    10009de2 f   MSVCRTD:MSVCR110D.dll
+ 0001:00008de8       _memcpy_s                  10009de8 f   MSVCRTD:MSVCR110D.dll
+ 0001:00008dee       _memset                    10009dee f   MSVCRTD:MSVCR110D.dll
+ 0001:00008df4       _strlen                    10009df4 f   MSVCRTD:MSVCR110D.dll
+ 0001:00008dfa       _memmove                   10009dfa f   MSVCRTD:MSVCR110D.dll
+ 0001:00008e00       _fclose                    10009e00 f   MSVCRTD:MSVCR110D.dll
+ 0001:00008e06       _fflush                    10009e06 f   MSVCRTD:MSVCR110D.dll
+ 0001:00008e0c       _fgetc                     10009e0c f   MSVCRTD:MSVCR110D.dll
+ 0001:00008e12       _fgetpos                   10009e12 f   MSVCRTD:MSVCR110D.dll
+ 0001:00008e18       _fputc                     10009e18 f   MSVCRTD:MSVCR110D.dll
+ 0001:00008e1e       _fsetpos                   10009e1e f   MSVCRTD:MSVCR110D.dll
+ 0001:00008e24       __fseeki64                 10009e24 f   MSVCRTD:MSVCR110D.dll
+ 0001:00008e2a       _fwrite                    10009e2a f   MSVCRTD:MSVCR110D.dll
+ 0001:00008e30       _setvbuf                   10009e30 f   MSVCRTD:MSVCR110D.dll
+ 0001:00008e36       _ungetc                    10009e36 f   MSVCRTD:MSVCR110D.dll
+ 0001:00008e3c       __lock_file                10009e3c f   MSVCRTD:MSVCR110D.dll
+ 0001:00008e42       __unlock_file              10009e42 f   MSVCRTD:MSVCR110D.dll
+ 0001:00008e48       _free                      10009e48 f   MSVCRTD:MSVCR110D.dll
+ 0001:00008e4e       ??_V@YAXPAX@Z              10009e4e f   MSVCRTD:MSVCR110D.dll
+ 0001:00008e54       __CrtDbgReportW            10009e54 f   MSVCRTD:MSVCR110D.dll
+ 0001:00008e5a       ??0bad_cast@std@@QAE@PBD@Z 10009e5a f   MSVCRTD:MSVCR110D.dll
+ 0001:00008e60       __strdate_s                10009e60 f   MSVCRTD:MSVCR110D.dll
+ 0001:00008e66       __strtime_s                10009e66 f   MSVCRTD:MSVCR110D.dll
+ 0001:00008e6c       ??0bad_cast@std@@QAE@ABV01@@Z 10009e6c f   MSVCRTD:MSVCR110D.dll
+ 0001:00008e72       ??0exception@std@@QAE@ABV01@@Z 10009e72 f   MSVCRTD:MSVCR110D.dll
+ 0001:00008e78       ??1bad_cast@std@@UAE@XZ    10009e78 f   MSVCRTD:MSVCR110D.dll
+ 0001:00008e80       @_RTC_AllocaHelper@12      10009e80 f   MSVCRTD:stack.obj
+ 0001:00008ec0       @_RTC_CheckStackVars2@12   10009ec0 f   MSVCRTD:stack.obj
+ 0001:00008fa0       @_RTC_CheckStackVars@8     10009fa0 f   MSVCRTD:stack.obj
+ 0001:00009000       __RTC_CheckEsp             1000a000 f   MSVCRTD:stack.obj
+ 0001:00009030       @__security_check_cookie@4 1000a030 f   MSVCRTD:secchk.obj
+ 0001:00009040       __CxxThrowException@8      1000a040 f   MSVCRTD:MSVCR110D.dll
+ 0001:00009050       __RTC_InitBase             1000a050 f   MSVCRTD:init.obj
+ 0001:00009080       __RTC_Shutdown             1000a080 f   MSVCRTD:init.obj
+ 0001:00009094       ___CxxFrameHandler3        1000a094 f   MSVCRTD:MSVCR110D.dll
+ 0001:000090a0       ??0type_info@@AAE@ABV0@@Z  1000a0a0 f   MSVCRTD:ti_inst.obj
+ 0001:000090c0       ??4type_info@@AAEAAV0@ABV0@@Z 1000a0c0 f   MSVCRTD:ti_inst.obj
+ 0001:000090d0       ??_Etype_info@@UAEPAXI@Z   1000a0d0 f i MSVCRTD:ti_inst.obj
+ 0001:000091c0       _NtCurrentTeb              1000a1c0 f i MSVCRTD:crtdll.obj
+ 0001:000091d0       __CRT_INIT@12              1000a1d0 f   MSVCRTD:crtdll.obj
+ 0001:000094b0       __DllMainCRTStartup@12     1000a4b0 f   MSVCRTD:crtdll.obj
+ 0001:000096a0       __lock                     1000a6a0 f   MSVCRTD:MSVCR110D.dll
+ 0001:000096a6       __unlock                   1000a6a6 f   MSVCRTD:MSVCR110D.dll
+ 0001:000096ac       __calloc_dbg               1000a6ac f   MSVCRTD:MSVCR110D.dll
+ 0001:000096b2       ___dllonexit               1000a6b2 f   MSVCRTD:MSVCR110D.dll
+ 0001:000096c0       __except_handler4          1000a6c0 f   MSVCRTD:chandler4gs.obj
+ 0001:00009840       ?_RTC_AllocaFailure@@YAXPAXPAU_RTC_ALLOCA_NODE@@H@Z 1000a840 f   MSVCRTD:error.obj
+ 0001:000099b0       ?_RTC_Failure@@YAXPAXH@Z   1000a9b0 f   MSVCRTD:error.obj
+ 0001:00009a00       ?_RTC_StackFailure@@YAXPAXPBD@Z 1000aa00 f   MSVCRTD:error.obj
+ 0001:00009d60       __RTC_UninitUse            1000ad60 f   MSVCRTD:error.obj
+ 0001:00009e60       ___raise_securityfailure   1000ae60 f   MSVCRTD:gs_report.obj
+ 0001:00009eb0       ___report_gsfailure        1000aeb0 f   MSVCRTD:gs_report.obj
+ 0001:00009fc0       ___report_rangecheckfailure 1000afc0 f   MSVCRTD:gs_report.obj
+ 0001:00009fd0       ___report_securityfailure  1000afd0 f   MSVCRTD:gs_report.obj
+ 0001:0000a0b0       ___report_securityfailureEx 1000b0b0 f   MSVCRTD:gs_report.obj
+ 0001:0000a1e0       ?_RTC_GetErrorFunc@@YAP6AHHPBDH00ZZPBX@Z 1000b1e0 f   MSVCRTD:userapi.obj
+ 0001:0000a1f0       ?_RTC_GetErrorFuncW@@YAP6AHHPB_WH00ZZPBX@Z 1000b1f0 f   MSVCRTD:userapi.obj
+ 0001:0000a200       __RTC_GetErrDesc           1000b200 f   MSVCRTD:userapi.obj
+ 0001:0000a220       __RTC_NumErrors            1000b220 f   MSVCRTD:userapi.obj
+ 0001:0000a230       __RTC_SetErrorFunc         1000b230 f   MSVCRTD:userapi.obj
+ 0001:0000a250       __RTC_SetErrorFuncW        1000b250 f   MSVCRTD:userapi.obj
+ 0001:0000a270       __RTC_SetErrorType         1000b270 f   MSVCRTD:userapi.obj
+ 0001:0000a294       __CRT_RTC_INITW            1000b294 f   MSVCRTD:MSVCR110D.dll
+ 0001:0000a2a0       ??_M@YGXPAXIHP6EX0@Z@Z     1000b2a0 f   MSVCRTD:ehvecdtr.obj
+ 0001:0000a380       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 1000b380 f   MSVCRTD:ehvecdtr.obj
+ 0001:0000a40a       ??1type_info@@UAE@XZ       1000b40a f   MSVCRTD:MSVCR110D.dll
+ 0001:0000a410       ___CppXcptFilter           1000b410 f   MSVCRTD:MSVCR110D.dll
+ 0001:0000a416       __amsg_exit                1000b416 f   MSVCRTD:MSVCR110D.dll
+ 0001:0000a41c       __malloc_dbg               1000b41c f   MSVCRTD:MSVCR110D.dll
+ 0001:0000a422       __free_dbg                 1000b422 f   MSVCRTD:MSVCR110D.dll
+ 0001:0000a428       __CrtSetCheckCount         1000b428 f   MSVCRTD:MSVCR110D.dll
+ 0001:0000a430       __FindPESection            1000b430 f   MSVCRTD:pesect.obj
+ 0001:0000a4b0       __IsNonwritableInCurrentImage 1000b4b0 f   MSVCRTD:pesect.obj
+ 0001:0000a5e0       __ValidateImageBase        1000b5e0 f   MSVCRTD:pesect.obj
+ 0001:0000a640       ___security_init_cookie    1000b640 f   MSVCRTD:gs_support.obj
+ 0001:0000a720       __RTC_Initialize           1000b720 f   MSVCRTD:initsect.obj
+ 0001:0000a750       __RTC_Terminate            1000b750 f   MSVCRTD:initsect.obj
+ 0001:0000a776       __initterm                 1000b776 f   MSVCRTD:MSVCR110D.dll
+ 0001:0000a77c       __initterm_e               1000b77c f   MSVCRTD:MSVCR110D.dll
+ 0001:0000a790       ___clean_type_info_names   1000b790 f   MSVCRTD:tncleanup.obj
+ 0001:0000a7a2       __except_handler4_common   1000b7a2 f   MSVCRTD:MSVCR110D.dll
+ 0001:0000abe0       ?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z 1000bbe0 f   MSVCRTD:pdblkup.obj
+ 0001:0000ae8e       __crt_debugger_hook        1000be8e f   MSVCRTD:MSVCR110D.dll
+ 0001:0000ae94       ___crtUnhandledException   1000be94 f   MSVCRTD:MSVCR110D.dll
+ 0001:0000ae9a       ___crtTerminateProcess     1000be9a f   MSVCRTD:MSVCR110D.dll
+ 0001:0000aea0       ?terminate@@YAXXZ          1000bea0 f   MSVCRTD:MSVCR110D.dll
+ 0001:0000aea6       ___clean_type_info_names_internal 1000bea6 f   MSVCRTD:MSVCR110D.dll
+ 0001:0000aeac       _wcscpy_s                  1000beac f   MSVCRTD:MSVCR110D.dll
+ 0001:0000aeb2       __wmakepath_s              1000beb2 f   MSVCRTD:MSVCR110D.dll
+ 0001:0000aeb8       __wsplitpath_s             1000beb8 f   MSVCRTD:MSVCR110D.dll
+ 0001:0000aebe       _EncodePointer@4           1000bebe f   kernel32:KERNEL32.dll
+ 0001:0000aec4       _DecodePointer@4           1000bec4 f   kernel32:KERNEL32.dll
+ 0001:0000aeca       _IsDebuggerPresent@0       1000beca f   kernel32:KERNEL32.dll
+ 0001:0000aed0       _RaiseException@16         1000bed0 f   kernel32:KERNEL32.dll
+ 0001:0000aed6       _GetLastError@0            1000bed6 f   kernel32:KERNEL32.dll
+ 0001:0000aedc       _GetProcAddress@8          1000bedc f   kernel32:KERNEL32.dll
+ 0001:0000aee2       _LoadLibraryExW@12         1000bee2 f   kernel32:KERNEL32.dll
+ 0001:0000aee8       _lstrlenA@4                1000bee8 f   kernel32:KERNEL32.dll
+ 0001:0000aeee       _LoadLibraryW@4            1000beee f   kernel32:KERNEL32.dll
+ 0001:0000aef4       _MultiByteToWideChar@24    1000bef4 f   kernel32:KERNEL32.dll
+ 0001:0000aefa       _WideCharToMultiByte@32    1000befa f   kernel32:KERNEL32.dll
+ 0001:0000af00       _IsProcessorFeaturePresent@4 1000bf00 f   kernel32:KERNEL32.dll
+ 0001:0000af06       _QueryPerformanceCounter@4 1000bf06 f   kernel32:KERNEL32.dll
+ 0001:0000af0c       _GetCurrentProcessId@0     1000bf0c f   kernel32:KERNEL32.dll
+ 0001:0000af12       _GetCurrentThreadId@0      1000bf12 f   kernel32:KERNEL32.dll
+ 0001:0000af18       _GetSystemTimeAsFileTime@4 1000bf18 f   kernel32:KERNEL32.dll
+ 0001:0000af1e       _HeapAlloc@12              1000bf1e f   kernel32:KERNEL32.dll
+ 0001:0000af24       _HeapFree@12               1000bf24 f   kernel32:KERNEL32.dll
+ 0001:0000af2a       _GetProcessHeap@0          1000bf2a f   kernel32:KERNEL32.dll
+ 0001:0000af30       _VirtualQuery@12           1000bf30 f   kernel32:KERNEL32.dll
+ 0001:0000af36       _FreeLibrary@4             1000bf36 f   kernel32:KERNEL32.dll
+ 0001:0000af3c       _GetModuleFileNameW@12     1000bf3c f   kernel32:KERNEL32.dll
+ 0001:0000af42       _GetModuleHandleW@4        1000bf42 f   kernel32:KERNEL32.dll
+ 0002:00000000       ___xc_a                    10012000     MSVCRTD:cinitexe.obj
+ 0002:00000330       ___xc_z                    10012330     MSVCRTD:cinitexe.obj
+ 0002:00000434       ___xi_a                    10012434     MSVCRTD:cinitexe.obj
+ 0002:00000740       ___xi_z                    10012740     MSVCRTD:cinitexe.obj
+ 0002:00000888       ?is_signed@?$numeric_limits@H@std@@2_NB 10012888     AndorNeoDll.obj
+ 0002:0000088c       ?digits@?$numeric_limits@H@std@@2HB 1001288c     AndorNeoDll.obj
+ 0002:00000890       ?digits10@?$numeric_limits@H@std@@2HB 10012890     AndorNeoDll.obj
+ 0002:00000894       ?is_signed@?$numeric_limits@I@std@@2_NB 10012894     AndorNeoDll.obj
+ 0002:00000898       ?digits@?$numeric_limits@I@std@@2HB 10012898     AndorNeoDll.obj
+ 0002:0000089c       ?digits10@?$numeric_limits@I@std@@2HB 1001289c     AndorNeoDll.obj
+ 0002:000008a0       ?is_signed@?$numeric_limits@J@std@@2_NB 100128a0     AndorNeoDll.obj
+ 0002:000008a4       ?digits@?$numeric_limits@J@std@@2HB 100128a4     AndorNeoDll.obj
+ 0002:000008a8       ?digits10@?$numeric_limits@J@std@@2HB 100128a8     AndorNeoDll.obj
+ 0002:000008ac       ?is_signed@?$numeric_limits@K@std@@2_NB 100128ac     AndorNeoDll.obj
+ 0002:000008b0       ?digits@?$numeric_limits@K@std@@2HB 100128b0     AndorNeoDll.obj
+ 0002:000008b4       ?digits10@?$numeric_limits@K@std@@2HB 100128b4     AndorNeoDll.obj
+ 0002:000008b8       ?is_signed@?$numeric_limits@_J@std@@2_NB 100128b8     AndorNeoDll.obj
+ 0002:000008bc       ?digits@?$numeric_limits@_J@std@@2HB 100128bc     AndorNeoDll.obj
+ 0002:000008c0       ?digits10@?$numeric_limits@_J@std@@2HB 100128c0     AndorNeoDll.obj
+ 0002:000008c4       ?is_signed@?$numeric_limits@_K@std@@2_NB 100128c4     AndorNeoDll.obj
+ 0002:000008c8       ?digits@?$numeric_limits@_K@std@@2HB 100128c8     AndorNeoDll.obj
+ 0002:000008cc       ?digits10@?$numeric_limits@_K@std@@2HB 100128cc     AndorNeoDll.obj
+ 0002:000008d0       ?digits@?$numeric_limits@M@std@@2HB 100128d0     AndorNeoDll.obj
+ 0002:000008d4       ?digits10@?$numeric_limits@M@std@@2HB 100128d4     AndorNeoDll.obj
+ 0002:000008d8       ?max_digits10@?$numeric_limits@M@std@@2HB 100128d8     AndorNeoDll.obj
+ 0002:000008dc       ?max_exponent@?$numeric_limits@M@std@@2HB 100128dc     AndorNeoDll.obj
+ 0002:000008e0       ?max_exponent10@?$numeric_limits@M@std@@2HB 100128e0     AndorNeoDll.obj
+ 0002:000008e4       ?min_exponent@?$numeric_limits@M@std@@2HB 100128e4     AndorNeoDll.obj
+ 0002:000008e8       ?value@?$integral_constant@I$0A@@std@@2IB 100128e8     AndorNeoDll.obj
+ 0002:000008ec       ?min_exponent10@?$numeric_limits@M@std@@2HB 100128ec     AndorNeoDll.obj
+ 0002:000008f0       ?digits@?$numeric_limits@N@std@@2HB 100128f0     AndorNeoDll.obj
+ 0002:000008f4       ?digits10@?$numeric_limits@N@std@@2HB 100128f4     AndorNeoDll.obj
+ 0002:000008f8       ?max_digits10@?$numeric_limits@N@std@@2HB 100128f8     AndorNeoDll.obj
+ 0002:000008fc       ?max_exponent@?$numeric_limits@N@std@@2HB 100128fc     AndorNeoDll.obj
+ 0002:00000900       ?max_exponent10@?$numeric_limits@N@std@@2HB 10012900     AndorNeoDll.obj
+ 0002:00000904       ?min_exponent@?$numeric_limits@N@std@@2HB 10012904     AndorNeoDll.obj
+ 0002:00000908       ?min_exponent10@?$numeric_limits@N@std@@2HB 10012908     AndorNeoDll.obj
+ 0002:0000090c       ?skipws@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1001290c     AndorNeoDll.obj
+ 0002:00000910       ?unitbuf@?$_Iosb@H@std@@2W4_Fmtflags@12@B 10012910     AndorNeoDll.obj
+ 0002:00000914       ?uppercase@?$_Iosb@H@std@@2W4_Fmtflags@12@B 10012914     AndorNeoDll.obj
+ 0002:00000918       ?showbase@?$_Iosb@H@std@@2W4_Fmtflags@12@B 10012918     AndorNeoDll.obj
+ 0002:0000091c       ?showpoint@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1001291c     AndorNeoDll.obj
+ 0002:00000920       ?showpos@?$_Iosb@H@std@@2W4_Fmtflags@12@B 10012920     AndorNeoDll.obj
+ 0002:00000924       ?left@?$_Iosb@H@std@@2W4_Fmtflags@12@B 10012924     AndorNeoDll.obj
+ 0002:00000928       ?digits@?$numeric_limits@O@std@@2HB 10012928     AndorNeoDll.obj
+ 0002:0000092c       ?right@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1001292c     AndorNeoDll.obj
+ 0002:00000930       ?internal@?$_Iosb@H@std@@2W4_Fmtflags@12@B 10012930     AndorNeoDll.obj
+ 0002:00000934       ?digits10@?$numeric_limits@O@std@@2HB 10012934     AndorNeoDll.obj
+ 0002:00000938       ?dec@?$_Iosb@H@std@@2W4_Fmtflags@12@B 10012938     AndorNeoDll.obj
+ 0002:0000093c       ?max_digits10@?$numeric_limits@O@std@@2HB 1001293c     AndorNeoDll.obj
+ 0002:00000940       ?oct@?$_Iosb@H@std@@2W4_Fmtflags@12@B 10012940     AndorNeoDll.obj
+ 0002:00000944       ?max_exponent@?$numeric_limits@O@std@@2HB 10012944     AndorNeoDll.obj
+ 0002:00000948       ?hex@?$_Iosb@H@std@@2W4_Fmtflags@12@B 10012948     AndorNeoDll.obj
+ 0002:0000094c       ?max_exponent10@?$numeric_limits@O@std@@2HB 1001294c     AndorNeoDll.obj
+ 0002:00000950       ?scientific@?$_Iosb@H@std@@2W4_Fmtflags@12@B 10012950     AndorNeoDll.obj
+ 0002:00000954       ?fixed@?$_Iosb@H@std@@2W4_Fmtflags@12@B 10012954     AndorNeoDll.obj
+ 0002:00000958       ?min_exponent@?$numeric_limits@O@std@@2HB 10012958     AndorNeoDll.obj
+ 0002:0000095c       ?hexfloat@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1001295c     AndorNeoDll.obj
+ 0002:00000960       ?min_exponent10@?$numeric_limits@O@std@@2HB 10012960     AndorNeoDll.obj
+ 0002:00000964       ?boolalpha@?$_Iosb@H@std@@2W4_Fmtflags@12@B 10012964     AndorNeoDll.obj
+ 0002:00000968       ?value@?$integral_constant@_N$0A@@std@@2_NB 10012968     AndorNeoDll.obj
+ 0002:0000096c       ?_Stdio@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1001296c     AndorNeoDll.obj
+ 0002:00000970       ?adjustfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B 10012970     AndorNeoDll.obj
+ 0002:00000974       ?basefield@?$_Iosb@H@std@@2W4_Fmtflags@12@B 10012974     AndorNeoDll.obj
+ 0002:00000978       ?floatfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B 10012978     AndorNeoDll.obj
+ 0002:0000097c       ?goodbit@?$_Iosb@H@std@@2W4_Iostate@12@B 1001297c     AndorNeoDll.obj
+ 0002:00000980       ?value@?$integral_constant@_N$00@std@@2_NB 10012980     AndorNeoDll.obj
+ 0002:00000984       ?eofbit@?$_Iosb@H@std@@2W4_Iostate@12@B 10012984     AndorNeoDll.obj
+ 0002:00000988       ?failbit@?$_Iosb@H@std@@2W4_Iostate@12@B 10012988     AndorNeoDll.obj
+ 0002:0000098c       ?badbit@?$_Iosb@H@std@@2W4_Iostate@12@B 1001298c     AndorNeoDll.obj
+ 0002:00000990       ?_Hardfail@?$_Iosb@H@std@@2W4_Iostate@12@B 10012990     AndorNeoDll.obj
+ 0002:00000994       ?in@?$_Iosb@H@std@@2W4_Openmode@12@B 10012994     AndorNeoDll.obj
+ 0002:00000998       ?out@?$_Iosb@H@std@@2W4_Openmode@12@B 10012998     AndorNeoDll.obj
+ 0002:0000099c       ?ate@?$_Iosb@H@std@@2W4_Openmode@12@B 1001299c     AndorNeoDll.obj
+ 0002:000009a0       ?app@?$_Iosb@H@std@@2W4_Openmode@12@B 100129a0     AndorNeoDll.obj
+ 0002:000009a4       ?trunc@?$_Iosb@H@std@@2W4_Openmode@12@B 100129a4     AndorNeoDll.obj
+ 0002:000009a8       ?_Nocreate@?$_Iosb@H@std@@2W4_Openmode@12@B 100129a8     AndorNeoDll.obj
+ 0002:000009ac       ?_Noreplace@?$_Iosb@H@std@@2W4_Openmode@12@B 100129ac     AndorNeoDll.obj
+ 0002:000009b0       ?binary@?$_Iosb@H@std@@2W4_Openmode@12@B 100129b0     AndorNeoDll.obj
+ 0002:000009b4       ?beg@?$_Iosb@H@std@@2W4_Seekdir@12@B 100129b4     AndorNeoDll.obj
+ 0002:000009b8       ?cur@?$_Iosb@H@std@@2W4_Seekdir@12@B 100129b8     AndorNeoDll.obj
+ 0002:000009bc       ?end@?$_Iosb@H@std@@2W4_Seekdir@12@B 100129bc     AndorNeoDll.obj
+ 0002:000009c0       ?value@?$_Sizeof@U_Nil@std@@U12@U12@U12@U12@U12@U12@U12@@std@@2IB 100129c0     AndorNeoDll.obj
+ 0002:000009c4       ?_Stream_err@failure@ios_base@std@@0W4io_errc@43@B 100129c4     AndorNeoDll.obj
+ 0002:000009c8       ?collate@?$_Locbase@H@std@@2HB 100129c8     AndorNeoDll.obj
+ 0002:000009cc       ?ctype@?$_Locbase@H@std@@2HB 100129cc     AndorNeoDll.obj
+ 0002:000009d0       ?monetary@?$_Locbase@H@std@@2HB 100129d0     AndorNeoDll.obj
+ 0002:000009d4       ?numeric@?$_Locbase@H@std@@2HB 100129d4     AndorNeoDll.obj
+ 0002:000009d8       ?time@?$_Locbase@H@std@@2HB 100129d8     AndorNeoDll.obj
+ 0002:000009dc       ?messages@?$_Locbase@H@std@@2HB 100129dc     AndorNeoDll.obj
+ 0002:000009e0       ?all@?$_Locbase@H@std@@2HB 100129e0     AndorNeoDll.obj
+ 0002:000009e4       ?none@?$_Locbase@H@std@@2HB 100129e4     AndorNeoDll.obj
+ 0002:000009e8       ?has_denorm@_Num_base@std@@2W4float_denorm_style@2@B 100129e8     AndorNeoDll.obj
+ 0002:000009ec       ?has_denorm_loss@_Num_base@std@@2_NB 100129ec     AndorNeoDll.obj
+ 0002:000009ed       ?has_infinity@_Num_base@std@@2_NB 100129ed     AndorNeoDll.obj
+ 0002:000009ee       ?has_quiet_NaN@_Num_base@std@@2_NB 100129ee     AndorNeoDll.obj
+ 0002:000009ef       ?has_signaling_NaN@_Num_base@std@@2_NB 100129ef     AndorNeoDll.obj
+ 0002:000009f0       ?is_bounded@_Num_base@std@@2_NB 100129f0     AndorNeoDll.obj
+ 0002:000009f1       ?is_exact@_Num_base@std@@2_NB 100129f1     AndorNeoDll.obj
+ 0002:000009f2       ?is_iec559@_Num_base@std@@2_NB 100129f2     AndorNeoDll.obj
+ 0002:000009f3       ?is_integer@_Num_base@std@@2_NB 100129f3     AndorNeoDll.obj
+ 0002:000009f4       ?is_modulo@_Num_base@std@@2_NB 100129f4     AndorNeoDll.obj
+ 0002:000009f5       ?is_signed@_Num_base@std@@2_NB 100129f5     AndorNeoDll.obj
+ 0002:000009f6       ?is_specialized@_Num_base@std@@2_NB 100129f6     AndorNeoDll.obj
+ 0002:000009f7       ?tinyness_before@_Num_base@std@@2_NB 100129f7     AndorNeoDll.obj
+ 0002:000009f8       ?traps@_Num_base@std@@2_NB 100129f8     AndorNeoDll.obj
+ 0002:000009fc       ?round_style@_Num_base@std@@2W4float_round_style@2@B 100129fc     AndorNeoDll.obj
+ 0002:00000a00       ?digits@_Num_base@std@@2HB 10012a00     AndorNeoDll.obj
+ 0002:00000a04       ?digits10@_Num_base@std@@2HB 10012a04     AndorNeoDll.obj
+ 0002:00000a08       ?max_digits10@_Num_base@std@@2HB 10012a08     AndorNeoDll.obj
+ 0002:00000a0c       ?max_exponent@_Num_base@std@@2HB 10012a0c     AndorNeoDll.obj
+ 0002:00000a10       ?max_exponent10@_Num_base@std@@2HB 10012a10     AndorNeoDll.obj
+ 0002:00000a14       ?min_exponent@_Num_base@std@@2HB 10012a14     AndorNeoDll.obj
+ 0002:00000a18       ?min_exponent10@_Num_base@std@@2HB 10012a18     AndorNeoDll.obj
+ 0002:00000a1c       ?radix@_Num_base@std@@2HB  10012a1c     AndorNeoDll.obj
+ 0002:00000a20       ?is_bounded@_Num_int_base@std@@2_NB 10012a20     AndorNeoDll.obj
+ 0002:00000a21       ?is_exact@_Num_int_base@std@@2_NB 10012a21     AndorNeoDll.obj
+ 0002:00000a22       ?is_integer@_Num_int_base@std@@2_NB 10012a22     AndorNeoDll.obj
+ 0002:00000a23       ?is_modulo@_Num_int_base@std@@2_NB 10012a23     AndorNeoDll.obj
+ 0002:00000a24       ?is_specialized@_Num_int_base@std@@2_NB 10012a24     AndorNeoDll.obj
+ 0002:00000a28       ?radix@_Num_int_base@std@@2HB 10012a28     AndorNeoDll.obj
+ 0002:00000a2c       ?has_denorm@_Num_float_base@std@@2W4float_denorm_style@2@B 10012a2c     AndorNeoDll.obj
+ 0002:00000a30       ?has_denorm_loss@_Num_float_base@std@@2_NB 10012a30     AndorNeoDll.obj
+ 0002:00000a31       ?has_infinity@_Num_float_base@std@@2_NB 10012a31     AndorNeoDll.obj
+ 0002:00000a32       ?has_quiet_NaN@_Num_float_base@std@@2_NB 10012a32     AndorNeoDll.obj
+ 0002:00000a33       ?has_signaling_NaN@_Num_float_base@std@@2_NB 10012a33     AndorNeoDll.obj
+ 0002:00000a34       ?is_bounded@_Num_float_base@std@@2_NB 10012a34     AndorNeoDll.obj
+ 0002:00000a35       ?is_exact@_Num_float_base@std@@2_NB 10012a35     AndorNeoDll.obj
+ 0002:00000a36       ?is_iec559@_Num_float_base@std@@2_NB 10012a36     AndorNeoDll.obj
+ 0002:00000a37       ?is_integer@_Num_float_base@std@@2_NB 10012a37     AndorNeoDll.obj
+ 0002:00000a38       ?is_modulo@_Num_float_base@std@@2_NB 10012a38     AndorNeoDll.obj
+ 0002:00000a39       ?is_signed@_Num_float_base@std@@2_NB 10012a39     AndorNeoDll.obj
+ 0002:00000a3a       ?is_specialized@_Num_float_base@std@@2_NB 10012a3a     AndorNeoDll.obj
+ 0002:00000a3b       ?tinyness_before@_Num_float_base@std@@2_NB 10012a3b     AndorNeoDll.obj
+ 0002:00000a3c       ?traps@_Num_float_base@std@@2_NB 10012a3c     AndorNeoDll.obj
+ 0002:00000a40       ?round_style@_Num_float_base@std@@2W4float_round_style@2@B 10012a40     AndorNeoDll.obj
+ 0002:00000a44       ?radix@_Num_float_base@std@@2HB 10012a44     AndorNeoDll.obj
+ 0002:00000a48       ?is_signed@?$numeric_limits@D@std@@2_NB 10012a48     AndorNeoDll.obj
+ 0002:00000a4c       ?digits@?$numeric_limits@D@std@@2HB 10012a4c     AndorNeoDll.obj
+ 0002:00000a50       ?digits10@?$numeric_limits@D@std@@2HB 10012a50     AndorNeoDll.obj
+ 0002:00000a54       ?is_signed@?$numeric_limits@_W@std@@2_NB 10012a54     AndorNeoDll.obj
+ 0002:00000a58       ?digits@?$numeric_limits@_W@std@@2HB 10012a58     AndorNeoDll.obj
+ 0002:00000a5c       ?digits10@?$numeric_limits@_W@std@@2HB 10012a5c     AndorNeoDll.obj
+ 0002:00000a60       ?is_modulo@?$numeric_limits@_N@std@@2_NB 10012a60     AndorNeoDll.obj
+ 0002:00000a61       ?is_signed@?$numeric_limits@_N@std@@2_NB 10012a61     AndorNeoDll.obj
+ 0002:00000a64       ?digits@?$numeric_limits@_N@std@@2HB 10012a64     AndorNeoDll.obj
+ 0002:00000a68       ?digits10@?$numeric_limits@_N@std@@2HB 10012a68     AndorNeoDll.obj
+ 0002:00000a6c       ?is_signed@?$numeric_limits@C@std@@2_NB 10012a6c     AndorNeoDll.obj
+ 0002:00000a70       ?digits@?$numeric_limits@C@std@@2HB 10012a70     AndorNeoDll.obj
+ 0002:00000a74       ?digits10@?$numeric_limits@C@std@@2HB 10012a74     AndorNeoDll.obj
+ 0002:00000a78       ?is_signed@?$numeric_limits@E@std@@2_NB 10012a78     AndorNeoDll.obj
+ 0002:00000a7c       ?digits@?$numeric_limits@E@std@@2HB 10012a7c     AndorNeoDll.obj
+ 0002:00000a80       ?digits10@?$numeric_limits@E@std@@2HB 10012a80     AndorNeoDll.obj
+ 0002:00000a84       ?is_signed@?$numeric_limits@F@std@@2_NB 10012a84     AndorNeoDll.obj
+ 0002:00000a88       ?digits@?$numeric_limits@F@std@@2HB 10012a88     AndorNeoDll.obj
+ 0002:00000a8c       ?digits10@?$numeric_limits@F@std@@2HB 10012a8c     AndorNeoDll.obj
+ 0002:00000a90       ?is_signed@?$numeric_limits@G@std@@2_NB 10012a90     AndorNeoDll.obj
+ 0002:00000a94       ?digits@?$numeric_limits@G@std@@2HB 10012a94     AndorNeoDll.obj
+ 0002:00000a98       ?digits10@?$numeric_limits@G@std@@2HB 10012a98     AndorNeoDll.obj
+ 0002:00000a9c       ?value@?$_Sizeof@HU_Nil@std@@U12@U12@U12@U12@U12@U12@@std@@2IB 10012a9c     AndorNeoDll.obj
+ 0002:00000aa0       ??_C@_1IE@PABMBLDD@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?5?$AAv?$AAi?$AAs?$AAu?$AAa@ 10012aa0     AndorNeoDll.obj
+ 0002:00000b40       ??_C@_1DC@POOIKBAO@?$AAI?$AAT?$AAE?$AAR?$AAA?$AAT?$AAO?$AAR?$AA?5?$AAL?$AAI?$AAS?$AAT?$AA?5?$AAC?$AAO?$AAR?$AAR?$AAU?$AAP?$AAT?$AAE?$AAD?$AA?$CB?$AA?$AA@ 10012b40     AndorNeoDll.obj
+ 0002:00000b7c       ?npos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@2IB 10012b7c     AndorNeoDll.obj
+ 0002:00000b84       ??_7error_category@std@@6B@ 10012b84     AndorNeoDll.obj
+ 0002:00000ba8       ??_7_Generic_error_category@std@@6B@ 10012ba8     AndorNeoDll.obj
+ 0002:00000bc8       ??_C@_07DCLBNMLN@generic?$AA@ 10012bc8     AndorNeoDll.obj
+ 0002:00000bd4       ??_C@_0O@BFJCFAAK@unknown?5error?$AA@ 10012bd4     AndorNeoDll.obj
+ 0002:00000be8       ??_7_Iostream_error_category@std@@6B@ 10012be8     AndorNeoDll.obj
+ 0002:00000c08       ??_C@_08LLGCOLLL@iostream?$AA@ 10012c08     AndorNeoDll.obj
+ 0002:00000c14       ??_C@_0BG@PADBLCHM@iostream?5stream?5error?$AA@ 10012c14     AndorNeoDll.obj
+ 0002:00000c34       ??_7_System_error_category@std@@6B@ 10012c34     AndorNeoDll.obj
+ 0002:00000c54       ??_C@_06FHFOAHML@system?$AA@ 10012c54     AndorNeoDll.obj
+ 0002:00000c64       ??_7?$basic_filebuf@DU?$char_traits@D@std@@@std@@6B@ 10012c64     AndorNeoDll.obj
+ 0002:00000cb0       ??_7?$basic_ofstream@DU?$char_traits@D@std@@@std@@6B@ 10012cb0     AndorNeoDll.obj
+ 0002:00000cc0       ??_8?$basic_ofstream@DU?$char_traits@D@std@@@std@@7B@ 10012cc0     AndorNeoDll.obj
+ 0002:00000ccc       ??_C@_0BA@NCFNPDLH@AndorCamera?4log?$AA@ 10012ccc     AndorNeoDll.obj
+ 0002:00000ce0       ??_C@_0M@PGACFAE@?5position?3?5?$AA@ 10012ce0     AndorNeoDll.obj
+ 0002:00000cf0       ??_C@_0M@LOOIMLFG@?5Err?5Code?3?5?$AA@ 10012cf0     AndorNeoDll.obj
+ 0002:00000d00       ??_C@_07EKOICBNP@?5Time?3?5?$AA@ 10012d00     AndorNeoDll.obj
+ 0002:00000d0c       ??_C@_06KNKNKIMO@Date?3?5?$AA@ 10012d0c     AndorNeoDll.obj
+ 0002:00000d14       ??_C@_1BK@BGCIDCDI@?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?5?$AAC?$AAo?$AAu?$AAn?$AAt?$AA?$AA@ 10012d14     AndorNeoDll.obj
+ 0002:00000d34       ??_C@_1CA@CGIENGFF@?$AAG?$AAa?$AAi?$AAn?$AA?5?$AA1?$AA?5?$AA?$CI?$AA1?$AA1?$AA?5?$AAb?$AAi?$AAt?$AA?$CJ?$AA?$AA@ 10012d34     AndorNeoDll.obj
+ 0002:00000d5c       ??_C@_1CE@EDOFPOHB@?$AAP?$AAr?$AAe?$AAA?$AAm?$AAp?$AAG?$AAa?$AAi?$AAn?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?$AA@ 10012d5c     AndorNeoDll.obj
+ 0002:00000d88       ??_C@_1CA@BPPMHLBF@?$AAG?$AAa?$AAi?$AAn?$AA?5?$AA2?$AA?5?$AA?$CI?$AA1?$AA1?$AA?5?$AAb?$AAi?$AAt?$AA?$CJ?$AA?$AA@ 10012d88     AndorNeoDll.obj
+ 0002:00000db0       ??_C@_1CA@INEBPNF@?$AAG?$AAa?$AAi?$AAn?$AA?5?$AA3?$AA?5?$AA?$CI?$AA1?$AA1?$AA?5?$AAb?$AAi?$AAt?$AA?$CJ?$AA?$AA@ 10012db0     AndorNeoDll.obj
+ 0002:00000dd8       ??_C@_1CA@GNANCBJF@?$AAG?$AAa?$AAi?$AAn?$AA?5?$AA4?$AA?5?$AA?$CI?$AA1?$AA1?$AA?5?$AAb?$AAi?$AAt?$AA?$CJ?$AA?$AA@ 10012dd8     AndorNeoDll.obj
+ 0002:00000e00       ??_C@_1CO@DCDKDMOL@?$AAG?$AAa?$AAi?$AAn?$AA?5?$AA1?$AA?5?$AAG?$AAa?$AAi?$AAn?$AA?5?$AA3?$AA?5?$AA?$CI?$AA1?$AA6?$AA?5?$AAb?$AAi?$AAt?$AA?$CJ?$AA?$AA@ 10012e00     AndorNeoDll.obj
+ 0002:00000e38       ??_C@_1CO@FHODACKL@?$AAG?$AAa?$AAi?$AAn?$AA?5?$AA1?$AA?5?$AAG?$AAa?$AAi?$AAn?$AA?5?$AA4?$AA?5?$AA?$CI?$AA1?$AA6?$AA?5?$AAb?$AAi?$AAt?$AA?$CJ?$AA?$AA@ 10012e38     AndorNeoDll.obj
+ 0002:00000e70       ??_C@_1CO@FGNKEHBF@?$AAG?$AAa?$AAi?$AAn?$AA?5?$AA2?$AA?5?$AAG?$AAa?$AAi?$AAn?$AA?5?$AA3?$AA?5?$AA?$CI?$AA1?$AA6?$AA?5?$AAb?$AAi?$AAt?$AA?$CJ?$AA?$AA@ 10012e70     AndorNeoDll.obj
+ 0002:00000ea8       ??_C@_1CO@DDADHJFF@?$AAG?$AAa?$AAi?$AAn?$AA?5?$AA2?$AA?5?$AAG?$AAa?$AAi?$AAn?$AA?5?$AA4?$AA?5?$AA?$CI?$AA1?$AA6?$AA?5?$AAb?$AAi?$AAt?$AA?$CJ?$AA?$AA@ 10012ea8     AndorNeoDll.obj
+ 0002:00000ee0       ??_C@_1BK@MIFBFNDF@?$AAM?$AAo?$AAn?$AAo?$AA1?$AA2?$AAP?$AAa?$AAc?$AAk?$AAe?$AAd?$AA?$AA@ 10012ee0     AndorNeoDll.obj
+ 0002:00000f00       ??_C@_1BO@JHPHHNNA@?$AAP?$AAi?$AAx?$AAe?$AAl?$AA?5?$AAE?$AAn?$AAc?$AAo?$AAd?$AAi?$AAn?$AAg?$AA?$AA@ 10012f00     AndorNeoDll.obj
+ 0002:00000f24       ??_C@_1O@FOECAHEK@?$AAM?$AAo?$AAn?$AAo?$AA1?$AA6?$AA?$AA@ 10012f24     AndorNeoDll.obj
+ 0002:00000f34       ??_C@_1BA@OJIHAOHN@?$AA1?$AA0?$AA0?$AA?5?$AAM?$AAH?$AAz?$AA?$AA@ 10012f34     AndorNeoDll.obj
+ 0002:00000f48       ??_C@_1CG@HFPEGKGA@?$AAP?$AAi?$AAx?$AAe?$AAl?$AA?5?$AAR?$AAe?$AAa?$AAd?$AAo?$AAu?$AAt?$AA?5?$AAR?$AAa?$AAt?$AAe?$AA?$AA@ 10012f48     AndorNeoDll.obj
+ 0002:00000f78       ??_C@_1CI@KCLPIMNN@?$AAS?$AAp?$AAu?$AAr?$AAi?$AAo?$AAu?$AAs?$AAN?$AAo?$AAi?$AAs?$AAe?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AA?$AA@ 10012f78     AndorNeoDll.obj
+ 0002:00000fa8       ??_C@_1CC@DKIBCMAG@?$AAI?$AAm?$AAa?$AAg?$AAe?$AA?5?$AAS?$AAi?$AAz?$AAe?$AA?5?$AAB?$AAy?$AAt?$AAe?$AAs?$AA?$AA@ 10012fa8     AndorNeoDll.obj
+ 0002:00000fd0       ??_C@_1BK@GOHJOHFA@?$AAE?$AAx?$AAp?$AAo?$AAs?$AAu?$AAr?$AAe?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 10012fd0     AndorNeoDll.obj
+ 0002:00000ff0       ??_C@_1CC@PGDBBMON@?$AAA?$AAc?$AAq?$AAu?$AAi?$AAs?$AAi?$AAt?$AAi?$AAo?$AAn?$AAS?$AAt?$AAa?$AAr?$AAt?$AA?$AA@ 10012ff0     AndorNeoDll.obj
+ 0002:00001018       ??_C@_1CA@OJLMCGNB@?$AAA?$AAc?$AAq?$AAu?$AAi?$AAs?$AAi?$AAt?$AAi?$AAo?$AAn?$AAS?$AAt?$AAo?$AAp?$AA?$AA@ 10013018     AndorNeoDll.obj
+ 0002:00001040       ??_C@_1BE@MBOBCDIL@?$AAA?$AAO?$AAI?$AAS?$AAt?$AAr?$AAi?$AAd?$AAe?$AA?$AA@ 10013040     AndorNeoDll.obj
+ 0002:00001058       ??_C@_1BI@KCOGJCPN@?$AAS?$AAe?$AAn?$AAs?$AAo?$AAr?$AAW?$AAi?$AAd?$AAt?$AAh?$AA?$AA@ 10013058     AndorNeoDll.obj
+ 0002:00001074       ??_C@_1BK@GJKIIANG@?$AAS?$AAe?$AAn?$AAs?$AAo?$AAr?$AAH?$AAe?$AAi?$AAg?$AAh?$AAt?$AA?$AA@ 10013074     AndorNeoDll.obj
+ 0002:00001098       ??_C@_1IC@CKNHPDKD@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?5?$AAv?$AAi?$AAs?$AAu?$AAa@ 10013098     AndorNeoDll.obj
+ 0002:00001134       ??_C@_0BA@JFNIOLAK@string?5too?5long?$AA@ 10013134     AndorNeoDll.obj
+ 0002:00001148       ??_C@_0BI@CFPLBAOH@invalid?5string?5position?$AA@ 10013148     AndorNeoDll.obj
+ 0002:00001168       ??_C@_1EG@CNCHLAOB@?$AAs?$AAt?$AAr?$AAi?$AAn?$AAg?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAd?$AAe?$AAr?$AAe?$AAf?$AAe?$AAr?$AAe?$AAn?$AAc?$AAa?$AAb@ 10013168     AndorNeoDll.obj
+ 0002:000011bc       ??_C@_0CE@OFMIGAMM@Standard?5C?$CL?$CL?5Libraries?5Out?5of?5Ra@ 100131bc     AndorNeoDll.obj
+ 0002:000011e8       ??_C@_1FG@IBPIFFN@?$AA?$CC?$AAS?$AAt?$AAa?$AAn?$AAd?$AAa?$AAr?$AAd?$AA?5?$AAC?$AA?$CL?$AA?$CL?$AA?5?$AAL?$AAi?$AAb?$AAr?$AAa?$AAr?$AAi?$AAe?$AAs?$AA?5?$AAO?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAR@ 100131e8     AndorNeoDll.obj
+ 0002:00001250       ??_C@_15GANGMFKL@?$AA?$CF?$AAs?$AA?$AA@ 10013250     AndorNeoDll.obj
+ 0002:00001258       ??_C@_1MG@GDGHDIKC@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAS?$AAt?$AAr?$AAi?$AAn?$AAg?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ 10013258     AndorNeoDll.obj
+ 0002:00001348       ??_C@_1BO@MEPPHOO@?$AA?$CC?$AAo?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAr?$AAa?$AAn?$AAg?$AAe?$AA?$CC?$AA?$AA@ 10013348     AndorNeoDll.obj
+ 0002:0000136c       ??_C@_1CK@EOPGIILJ@?$AAi?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAn?$AAu?$AAl?$AAl?$AA?5?$AAp?$AAo?$AAi?$AAn?$AAt?$AAe?$AAr?$AA?$AA@ 1001336c     AndorNeoDll.obj
+ 0002:000013a0       ??_C@_08EPJLHIJG@bad?5cast?$AA@ 100133a0     AndorNeoDll.obj
+ 0002:000013b0       __real@3f50624dd2f1a9fc    100133b0     AndorNeoDll.obj
+ 0002:000013bc       ??_C@_0DD@IMKCHGBE@f?3?2dd?2vctools?2crt_bld?2self_x86?2c@ 100133bc     msvcprtd:locale0_implib.obj
+ 0002:000013f0       ??_C@_1LK@BJHNKBFO@?$AA?$CI?$AA_?$AA_?$AAo?$AAn?$AAe?$AAx?$AAi?$AAt?$AAe?$AAn?$AAd?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AAN?$AAU?$AAL?$AAL?$AA?5?$AA?$CG?$AA?$CG?$AA?5?$AA_?$AA_?$AAo?$AAn?$AAe?$AAx?$AAi?$AAt@ 100133f0     MSVCRTD:atonexit.obj
+ 0002:000014b0       ??_C@_1GE@KOKOIPKN@?$AAf?$AA?3?$AA?2?$AAd?$AAd?$AA?2?$AAv?$AAc?$AAt?$AAo?$AAo?$AAl?$AAs?$AA?2?$AAc?$AAr?$AAt?$AA_?$AAb?$AAl?$AAd?$AA?2?$AAs?$AAe?$AAl?$AAf?$AA_?$AAx?$AA8?$AA6?$AA?2?$AAc@ 100134b0     MSVCRTD:atonexit.obj
+ 0002:00001514       ??_C@_0DC@KIAPAJCJ@f?3?2dd?2vctools?2crt_bld?2self_x86?2c@ 10013514     MSVCRTD:atonexit.obj
+ 0002:0000154c       ??_7type_info@@6B@         1001354c     MSVCRTD:ti_inst.obj
+ 0002:00001550       __pDefaultRawDllMain       10013550     MSVCRTD:crtdll.obj
+ 0002:00001550       __pRawDllMain              10013550     MSVCRTD:crtdll.obj
+ 0002:00001554       ??_C@_0DA@FJPPCPEH@f?3?2dd?2vctools?2crt_bld?2self_x86?2c@ 10013554     MSVCRTD:crtdll.obj
+ 0002:00001620       ??_C@_0NN@NGPKDKPD@The?5value?5of?5ESP?5was?5not?5properl@ 10013620     MSVCRTD:error.obj
+ 0002:00001700       ??_C@_0BBN@GPMLNJCF@A?5cast?5to?5a?5smaller?5data?5type?5ha@ 10013700     MSVCRTD:error.obj
+ 0002:00001820       ??_C@_0BN@FFOINMNJ@Stack?5memory?5was?5corrupted?6?$AN?$AA@ 10013820     MSVCRTD:error.obj
+ 0002:00001840       ??_C@_0DG@HKJMLLLP@A?5local?5variable?5was?5used?5before@ 10013840     MSVCRTD:error.obj
+ 0002:00001878       ??_C@_0CM@NGINOKPC@Stack?5memory?5around?5_alloca?5was?5@ 10013878     MSVCRTD:error.obj
+ 0002:000018a4       ??_C@_0BO@GNIAFIKK@Unknown?5Runtime?5Check?5Error?6?$AN?$AA@ 100138a4     MSVCRTD:error.obj
+ 0002:000018c8       ??_C@_1GM@OLMCBDMB@?$AAR?$AAu?$AAn?$AAt?$AAi?$AAm?$AAe?$AA?5?$AAC?$AAh?$AAe?$AAc?$AAk?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?4?$AA?6?$AA?$AN?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo@ 100138c8     MSVCRTD:error.obj
+ 0002:00001938       ??_C@_1EA@NFKNIFJP@?$AAR?$AAu?$AAn?$AA?9?$AAT?$AAi?$AAm?$AAe?$AA?5?$AAC?$AAh?$AAe?$AAc?$AAk?$AA?5?$AAF?$AAa?$AAi?$AAl?$AAu?$AAr?$AAe?$AA?5?$AA?$CD?$AA?$CF?$AAd?$AA?5?$AA?9?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 10013938     MSVCRTD:error.obj
+ 0002:00001978       ??_C@_0BB@PFFGGCJP@Unknown?5Filename?$AA@ 10013978     MSVCRTD:error.obj
+ 0002:0000198c       ??_C@_0BE@GNBOBNCK@Unknown?5Module?5Name?$AA@ 1001398c     MSVCRTD:error.obj
+ 0002:000019a0       ??_C@_0CA@IODNCDPG@Run?9Time?5Check?5Failure?5?$CD?$CFd?5?9?5?$CFs?$AA@ 100139a0     MSVCRTD:error.obj
+ 0002:000019c0       ??_C@_0CG@IAFNJNEE@Stack?5corrupted?5near?5unknown?5var@ 100139c0     MSVCRTD:error.obj
+ 0002:000019e8       ??_C@_05MKKEDADM@?$CF?42X?5?$AA@ 100139e8     MSVCRTD:error.obj
+ 0002:000019f0       ??_C@_1BG@OILDLIOJ@?$AAu?$AAs?$AAe?$AAr?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 100139f0     MSVCRTD:error.obj
+ 0002:00001a08       ??_C@_09FOPFMPEJ@wsprintfA?$AA@ 10013a08     MSVCRTD:error.obj
+ 0002:00001a18       ??_C@_0EJ@LJKNEOLN@Stack?5area?5around?5_alloca?5memory@ 10013a18     MSVCRTD:error.obj
+ 0002:00001a64       ??_C@_08OMAHNMHJ@?6Data?3?5?$DM?$AA@ 10013a64     MSVCRTD:error.obj
+ 0002:00001a70       ??_C@_0CK@DKGBICFE@?6Allocation?5number?5within?5this?5f@ 10013a70     MSVCRTD:error.obj
+ 0002:00001a9c       ??_C@_07DFDJCKFN@?6Size?3?5?$AA@ 10013a9c     MSVCRTD:error.obj
+ 0002:00001aa4       ??_C@_0N@MHFFIMFG@?6Address?3?50x?$AA@ 10013aa4     MSVCRTD:error.obj
+ 0002:00001ab8       ??_C@_0EI@CLEPFNGI@Stack?5area?5around?5_alloca?5memory@ 10013ab8     MSVCRTD:error.obj
+ 0002:00001b00       ??_C@_0BC@KIBAILCI@?$CFs?$CFs?$CFp?$CFs?$CFld?$CFs?$CFd?$CFs?$AA@ 10013b00     MSVCRTD:error.obj
+ 0002:00001b14       ??_C@_01EEMJAFIK@?6?$AA@   10013b14     MSVCRTD:error.obj
+ 0002:00001b18       ??_C@_02LLMPMKNF@?$DO?5?$AA@ 10013b18     MSVCRTD:error.obj
+ 0002:00001b1c       ??_C@_08KJEDNCKC@?$CFs?$CFs?$CFs?$CFs?$AA@ 10013b1c     MSVCRTD:error.obj
+ 0002:00001b28       ??_C@_0DE@OHJBPMBP@A?5variable?5is?5being?5used?5without@ 10013b28     MSVCRTD:error.obj
+ 0002:00001b78       ??_C@_0BJ@HEGAHDFO@Stack?5pointer?5corruption?$AA@ 10013b78     MSVCRTD:userapi.obj
+ 0002:00001b94       ??_C@_0CK@FEGOIOPB@Cast?5to?5smaller?5type?5causing?5los@ 10013b94     MSVCRTD:userapi.obj
+ 0002:00001bc0       ??_C@_0BI@CIGMDCBH@Stack?5memory?5corruption?$AA@ 10013bc0     MSVCRTD:userapi.obj
+ 0002:00001bd8       ??_C@_0CK@CNLNOEPB@Local?5variable?5used?5before?5initi@ 10013bd8     MSVCRTD:userapi.obj
+ 0002:00001c04       ??_C@_0BP@OGBCLIBO@Stack?5around?5_alloca?5corrupted?$AA@ 10013c04     MSVCRTD:userapi.obj
+ 0002:00001c24       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 10013c24     MSVCRTD:initsect.obj
+ 0002:00001c28       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 10013c28     MSVCRTD:initsect.obj
+ 0002:00001c2c       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 10013c2c     MSVCRTD:initsect.obj
+ 0002:00001c30       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 10013c30     MSVCRTD:initsect.obj
+ 0002:00001c34       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 10013c34     MSVCRTD:initsect.obj
+ 0002:00001c38       ?LocalIdBitWidth@CrossScopeId@CodeViewInfo@@2IB 10013c38     MSVCRTD:pdblkup.obj
+ 0002:00001c3c       ?IdScopeBitWidth@CrossScopeId@CodeViewInfo@@2IB 10013c3c     MSVCRTD:pdblkup.obj
+ 0002:00001c40       ?StartCrossScopeId@CrossScopeId@CodeViewInfo@@2IB 10013c40     MSVCRTD:pdblkup.obj
+ 0002:00001c44       ?LocalIdMask@CrossScopeId@CodeViewInfo@@2IB 10013c44     MSVCRTD:pdblkup.obj
+ 0002:00001c48       ?ScopeIdMask@CrossScopeId@CodeViewInfo@@2IB 10013c48     MSVCRTD:pdblkup.obj
+ 0002:00001c4c       ?MaxLocalId@CrossScopeId@CodeViewInfo@@2IB 10013c4c     MSVCRTD:pdblkup.obj
+ 0002:00001c50       ?MaxScopeId@CrossScopeId@CodeViewInfo@@2IB 10013c50     MSVCRTD:pdblkup.obj
+ 0002:00001c8c       ??_C@_1BK@GAEMIDIL@?$AAA?$AAD?$AAV?$AAA?$AAP?$AAI?$AA3?$AA2?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 10013c8c     MSVCRTD:pdblkup.obj
+ 0002:00001ca8       ??_C@_0O@COHOBMLB@RegOpenKeyExW?$AA@ 10013ca8     MSVCRTD:pdblkup.obj
+ 0002:00001cb8       ??_C@_0BB@GLNAEDBD@RegQueryValueExW?$AA@ 10013cb8     MSVCRTD:pdblkup.obj
+ 0002:00001ccc       ??_C@_0M@HLOHPNFA@RegCloseKey?$AA@ 10013ccc     MSVCRTD:pdblkup.obj
+ 0002:00001cd8       ??_C@_1FM@OEMPKHJI@?$AAS?$AAO?$AAF?$AAT?$AAW?$AAA?$AAR?$AAE?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAV?$AAi?$AAs?$AAu?$AAa?$AAl?$AAS?$AAt?$AAu?$AAd?$AAi?$AAo?$AA?2@ 10013cd8     MSVCRTD:pdblkup.obj
+ 0002:00001d34       ??_C@_1CK@HHHCOJPD@?$AAE?$AAn?$AAv?$AAi?$AAr?$AAo?$AAn?$AAm?$AAe?$AAn?$AAt?$AAD?$AAi?$AAr?$AAe?$AAc?$AAt?$AAo?$AAr?$AAy?$AA?$AA@ 10013d34     MSVCRTD:pdblkup.obj
+ 0002:00001d7c       ??_C@_1BC@MIBIBMGK@?$AAM?$AAS?$AAP?$AAD?$AAB?$AA1?$AA1?$AA0?$AA?$AA@ 10013d7c     MSVCRTD:pdblkup.obj
+ 0002:00001d90       ??_C@_0BB@KCIACLNC@PDBOpenValidate5?$AA@ 10013d90     MSVCRTD:pdblkup.obj
+ 0002:00001da4       ??_C@_01KDCPPGHE@r?$AA@    10013da4     MSVCRTD:pdblkup.obj
+ 0002:00001da8       __load_config_used         10013da8     MSVCRTD:loadcfg.obj
+ 0002:00002358       ??_R4?$basic_filebuf@DU?$char_traits@D@std@@@std@@6B@ 10014358     AndorNeoDll.obj
+ 0002:00002370       ??_R3?$basic_filebuf@DU?$char_traits@D@std@@@std@@8 10014370     AndorNeoDll.obj
+ 0002:00002384       ??_R2?$basic_filebuf@DU?$char_traits@D@std@@@std@@8 10014384     AndorNeoDll.obj
+ 0002:00002390       ??_R1A@?0A@EA@?$basic_filebuf@DU?$char_traits@D@std@@@std@@8 10014390     AndorNeoDll.obj
+ 0002:000023b4       ??_R1A@?0A@EA@?$basic_streambuf@DU?$char_traits@D@std@@@std@@8 100143b4     AndorNeoDll.obj
+ 0002:000023d8       ??_R3?$basic_streambuf@DU?$char_traits@D@std@@@std@@8 100143d8     AndorNeoDll.obj
+ 0002:000023ec       ??_R2?$basic_streambuf@DU?$char_traits@D@std@@@std@@8 100143ec     AndorNeoDll.obj
+ 0002:000023f4       ??_R4?$basic_ofstream@DU?$char_traits@D@std@@@std@@6B@ 100143f4     AndorNeoDll.obj
+ 0002:0000240c       ??_R3?$basic_ofstream@DU?$char_traits@D@std@@@std@@8 1001440c     AndorNeoDll.obj
+ 0002:00002420       ??_R2?$basic_ofstream@DU?$char_traits@D@std@@@std@@8 10014420     AndorNeoDll.obj
+ 0002:0000243c       ??_R1A@?0A@EA@?$basic_ofstream@DU?$char_traits@D@std@@@std@@8 1001443c     AndorNeoDll.obj
+ 0002:00002460       ??_R1A@?0A@EA@?$basic_ostream@DU?$char_traits@D@std@@@std@@8 10014460     AndorNeoDll.obj
+ 0002:00002484       ??_R3?$basic_ostream@DU?$char_traits@D@std@@@std@@8 10014484     AndorNeoDll.obj
+ 0002:00002498       ??_R2?$basic_ostream@DU?$char_traits@D@std@@@std@@8 10014498     AndorNeoDll.obj
+ 0002:000024ac       ??_R1A@A@3FA@?$basic_ios@DU?$char_traits@D@std@@@std@@8 100144ac     AndorNeoDll.obj
+ 0002:000024d0       ??_R3?$basic_ios@DU?$char_traits@D@std@@@std@@8 100144d0     AndorNeoDll.obj
+ 0002:000024e4       ??_R2?$basic_ios@DU?$char_traits@D@std@@@std@@8 100144e4     AndorNeoDll.obj
+ 0002:000024f4       ??_R1A@?0A@EA@?$basic_ios@DU?$char_traits@D@std@@@std@@8 100144f4     AndorNeoDll.obj
+ 0002:00002518       ??_R1A@?0A@EA@ios_base@std@@8 10014518     AndorNeoDll.obj
+ 0002:0000253c       ??_R3ios_base@std@@8       1001453c     AndorNeoDll.obj
+ 0002:00002550       ??_R2ios_base@std@@8       10014550     AndorNeoDll.obj
+ 0002:0000255c       ??_R17?0A@EA@?$_Iosb@H@std@@8 1001455c     AndorNeoDll.obj
+ 0002:00002580       ??_R3?$_Iosb@H@std@@8      10014580     AndorNeoDll.obj
+ 0002:00002594       ??_R2?$_Iosb@H@std@@8      10014594     AndorNeoDll.obj
+ 0002:0000259c       ??_R1A@?0A@EA@?$_Iosb@H@std@@8 1001459c     AndorNeoDll.obj
+ 0002:000025c0       ??_R1A@A@3EA@ios_base@std@@8 100145c0     AndorNeoDll.obj
+ 0002:000025e4       ??_R17A@3EA@?$_Iosb@H@std@@8 100145e4     AndorNeoDll.obj
+ 0002:00002608       ??_R4error_category@std@@6B@ 10014608     AndorNeoDll.obj
+ 0002:00002620       ??_R3error_category@std@@8 10014620     AndorNeoDll.obj
+ 0002:00002634       ??_R2error_category@std@@8 10014634     AndorNeoDll.obj
+ 0002:0000263c       ??_R1A@?0A@EA@error_category@std@@8 1001463c     AndorNeoDll.obj
+ 0002:00002660       ??_R4_Generic_error_category@std@@6B@ 10014660     AndorNeoDll.obj
+ 0002:00002678       ??_R3_Generic_error_category@std@@8 10014678     AndorNeoDll.obj
+ 0002:0000268c       ??_R2_Generic_error_category@std@@8 1001468c     AndorNeoDll.obj
+ 0002:00002698       ??_R1A@?0A@EA@_Generic_error_category@std@@8 10014698     AndorNeoDll.obj
+ 0002:000026bc       ??_R4_Iostream_error_category@std@@6B@ 100146bc     AndorNeoDll.obj
+ 0002:000026d4       ??_R3_Iostream_error_category@std@@8 100146d4     AndorNeoDll.obj
+ 0002:000026e8       ??_R2_Iostream_error_category@std@@8 100146e8     AndorNeoDll.obj
+ 0002:000026f8       ??_R1A@?0A@EA@_Iostream_error_category@std@@8 100146f8     AndorNeoDll.obj
+ 0002:0000271c       ??_R4_System_error_category@std@@6B@ 1001471c     AndorNeoDll.obj
+ 0002:00002734       ??_R3_System_error_category@std@@8 10014734     AndorNeoDll.obj
+ 0002:00002748       ??_R2_System_error_category@std@@8 10014748     AndorNeoDll.obj
+ 0002:00002758       ??_R1A@?0A@EA@_System_error_category@std@@8 10014758     AndorNeoDll.obj
+ 0002:0000277c       ??_R4type_info@@6B@        1001477c     MSVCRTD:ti_inst.obj
+ 0002:00002790       ??_R3type_info@@8          10014790     MSVCRTD:ti_inst.obj
+ 0002:000027a0       ??_R2type_info@@8          100147a0     MSVCRTD:ti_inst.obj
+ 0002:000027a8       ??_R1A@?0A@EA@type_info@@8 100147a8     MSVCRTD:ti_inst.obj
+ 0002:00002900       ___safe_se_handler_table   10014900     <linker-defined>
+ 0002:00002a64       ___rtc_iaa                 10014a64     MSVCRTD:initsect.obj
+ 0002:00002c74       ___rtc_izz                 10014c74     MSVCRTD:initsect.obj
+ 0002:00002d78       ___rtc_taa                 10014d78     MSVCRTD:initsect.obj
+ 0002:00002f88       ___rtc_tzz                 10014f88     MSVCRTD:initsect.obj
+ 0002:00003554       __CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12 10015554     AndorNeoDll.obj
+ 0002:00003574       __TI2?AVbad_cast@std@@     10015574     AndorNeoDll.obj
+ 0002:00003588       __CTA2?AVbad_cast@std@@    10015588     AndorNeoDll.obj
+ 0002:00003598       __CT??_R0?AVbad_cast@std@@@8??0bad_cast@std@@QAE@ABV01@@Z12 10015598     AndorNeoDll.obj
+ 0003:00000000       ??_R0?AVexception@std@@@8  10016000     AndorNeoDll.obj
+ 0003:00000024       ??_R0?AVbad_cast@std@@@8   10016024     AndorNeoDll.obj
+ 0003:00000044       ??_R0?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@@8 10016044     AndorNeoDll.obj
+ 0003:0000008c       ??_R0?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@@8 1001608c     AndorNeoDll.obj
+ 0003:000000d4       ??_R0?AV?$basic_ofstream@DU?$char_traits@D@std@@@std@@@8 100160d4     AndorNeoDll.obj
+ 0003:0000011c       ??_R0?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@@8 1001611c     AndorNeoDll.obj
+ 0003:00000164       ??_R0?AV?$basic_ios@DU?$char_traits@D@std@@@std@@@8 10016164     AndorNeoDll.obj
+ 0003:000001a4       ??_R0?AVios_base@std@@@8   100161a4     AndorNeoDll.obj
+ 0003:000001c4       ??_R0?AV?$_Iosb@H@std@@@8  100161c4     AndorNeoDll.obj
+ 0003:000001e8       ??_R0?AVerror_category@std@@@8 100161e8     AndorNeoDll.obj
+ 0003:00000210       ??_R0?AV_Generic_error_category@std@@@8 10016210     AndorNeoDll.obj
+ 0003:00000244       ??_R0?AV_Iostream_error_category@std@@@8 10016244     AndorNeoDll.obj
+ 0003:00000278       ??_R0?AV_System_error_category@std@@@8 10016278     AndorNeoDll.obj
+ 0003:000002ac       ??_R0?AVtype_info@@@8      100162ac     MSVCRTD:ti_inst.obj
+ 0003:000002c4       ___security_cookie         100162c4     MSVCRTD:gs_cookie.obj
+ 0003:000002c8       ___security_cookie_complement 100162c8     MSVCRTD:gs_cookie.obj
+ 0003:000002d0       ?_RTC_ErrorLevels@@3PAHA   100162d0     MSVCRTD:error.obj
+ 0003:000002e4       ___native_dllmain_reason   100162e4     MSVCRTD:natstart.obj
+ 0003:00000400       ?Hndl@@3HA                 10016400     AndorNeoDll.obj
+ 0003:00000404       ?BufferSize@@3HA           10016404     AndorNeoDll.obj
+ 0003:00000408       ?UserBuffer@@3PAEA         10016408     AndorNeoDll.obj
+ 0003:0000040c       ?gblp_Buffer@@3PAEA        1001640c     AndorNeoDll.obj
+ 0003:00000410       ?buffer_assigned@@3_NA     10016410     AndorNeoDll.obj
+ 0003:00000414       ?CAMMODE@@3HA              10016414     AndorNeoDll.obj
+ 0003:00000420       ?_Generic_object@?$_Error_objects@H@std@@2V_Generic_error_category@2@A 10016420     AndorNeoDll.obj
+ 0003:00000424       ?_Iostream_object@?$_Error_objects@H@std@@2V_Iostream_error_category@2@A 10016424     AndorNeoDll.obj
+ 0003:00000428       ?_System_object@?$_Error_objects@H@std@@2V_System_error_category@2@A 10016428     AndorNeoDll.obj
+ 0003:0000042c       ?_Stinit@?1??_Init@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IAEXPAU_iobuf@@W4_Initfl@23@@Z@4HA 1001642c     AndorNeoDll.obj
+ 0003:00000430       ?_Psave@?$_Facetptr@V?$codecvt@DDH@std@@@std@@2PBVfacet@locale@2@B 10016430     AndorNeoDll.obj
+ 0003:00000434       ___@@_PchSym_@00@UfhvihUpozfhUwlxfnvmghUurovhUkilqvpgvUkilqvpgvLfogiznrpilhplkrvUivxliwrmtLhlgdzivUfnxlmgiloovidlipUzmwlimvlwooUzmwlimvlwooUwvyftUhgwzucOlyq@8CFFA00CFFFF3EDA 10016434     stdafx.obj
+ 0003:00000444       ?wsprintffp@@3P6AHPADPBDZZA 10016444     MSVCRTD:error.obj
+ 0003:00000770       ?__type_info_root_node@@3U__type_info_node@@A 10016770     MSVCRTD:tncleanup.obj
+ 0003:00000780       ___native_startup_lock     10016780     <common>
+ 0003:00000790       ___native_startup_state    10016790     <common>
+ 0003:00000794       ___dyn_tls_init_callback   10016794     <common>
+ 0003:000007a0       ___onexitend               100167a0     <common>
+ 0003:000007b0       ___onexitbegin             100167b0     <common>
+ 0004:00000000       __IMPORT_DESCRIPTOR_atcore 10017000     atcorem:atcore.dll
+ 0004:00000014       __IMPORT_DESCRIPTOR_MSVCP110D 10017014     msvcprtd:MSVCP110D.dll
+ 0004:00000028       __IMPORT_DESCRIPTOR_MSVCR110D 10017028     MSVCRTD:MSVCR110D.dll
+ 0004:0000003c       __IMPORT_DESCRIPTOR_KERNEL32 1001703c     kernel32:KERNEL32.dll
+ 0004:00000050       __NULL_IMPORT_DESCRIPTOR   10017050     atcorem:atcore.dll
+ 0004:000003f0       __imp__GetModuleHandleW@4  100173f0     kernel32:KERNEL32.dll
+ 0004:000003f4       __imp__GetModuleFileNameW@12 100173f4     kernel32:KERNEL32.dll
+ 0004:000003f8       __imp__FreeLibrary@4       100173f8     kernel32:KERNEL32.dll
+ 0004:000003fc       __imp__VirtualQuery@12     100173fc     kernel32:KERNEL32.dll
+ 0004:00000400       __imp__GetProcessHeap@0    10017400     kernel32:KERNEL32.dll
+ 0004:00000404       __imp__HeapFree@12         10017404     kernel32:KERNEL32.dll
+ 0004:00000408       __imp__HeapAlloc@12        10017408     kernel32:KERNEL32.dll
+ 0004:0000040c       __imp__GetSystemTimeAsFileTime@4 1001740c     kernel32:KERNEL32.dll
+ 0004:00000410       __imp__GetCurrentThreadId@0 10017410     kernel32:KERNEL32.dll
+ 0004:00000414       __imp__GetCurrentProcessId@0 10017414     kernel32:KERNEL32.dll
+ 0004:00000418       __imp__QueryPerformanceCounter@4 10017418     kernel32:KERNEL32.dll
+ 0004:0000041c       __imp__IsProcessorFeaturePresent@4 1001741c     kernel32:KERNEL32.dll
+ 0004:00000420       __imp__MultiByteToWideChar@24 10017420     kernel32:KERNEL32.dll
+ 0004:00000424       __imp__LoadLibraryW@4      10017424     kernel32:KERNEL32.dll
+ 0004:00000428       __imp__lstrlenA@4          10017428     kernel32:KERNEL32.dll
+ 0004:0000042c       __imp__LoadLibraryExW@12   1001742c     kernel32:KERNEL32.dll
+ 0004:00000430       __imp__GetProcAddress@8    10017430     kernel32:KERNEL32.dll
+ 0004:00000434       __imp__GetLastError@0      10017434     kernel32:KERNEL32.dll
+ 0004:00000438       __imp__RaiseException@16   10017438     kernel32:KERNEL32.dll
+ 0004:0000043c       __imp__IsDebuggerPresent@0 1001743c     kernel32:KERNEL32.dll
+ 0004:00000440       __imp__DecodePointer@4     10017440     kernel32:KERNEL32.dll
+ 0004:00000444       __imp__EncodePointer@4     10017444     kernel32:KERNEL32.dll
+ 0004:00000448       __imp__WideCharToMultiByte@32 10017448     kernel32:KERNEL32.dll
+ 0004:0000044c       \177KERNEL32_NULL_THUNK_DATA 1001744c     kernel32:KERNEL32.dll
+ 0004:00000488       __imp_?_Getgloballocale@locale@std@@CAPAV_Locimp@12@XZ 10017488     msvcprtd:MSVCP110D.dll
+ 0004:0000048c       __imp_?always_noconv@codecvt_base@std@@QBE_NXZ 1001748c     msvcprtd:MSVCP110D.dll
+ 0004:00000490       __imp_?in@?$codecvt@DDH@std@@QBEHAAHPBD1AAPBDPAD3AAPAD@Z 10017490     msvcprtd:MSVCP110D.dll
+ 0004:00000494       __imp_?out@?$codecvt@DDH@std@@QBEHAAHPBD1AAPBDPAD3AAPAD@Z 10017494     msvcprtd:MSVCP110D.dll
+ 0004:00000498       __imp_?unshift@?$codecvt@DDH@std@@QBEHAAHPAD1AAPAD@Z 10017498     msvcprtd:MSVCP110D.dll
+ 0004:0000049c       __imp_?_Getcat@?$codecvt@DDH@std@@SAIPAPBVfacet@locale@2@PBV42@@Z 1001749c     msvcprtd:MSVCP110D.dll
+ 0004:000004a0       __imp_?_Syserror_map@std@@YAPBDH@Z 100174a0     msvcprtd:MSVCP110D.dll
+ 0004:000004a4       __imp_?_Winerror_map@std@@YAPBDH@Z 100174a4     msvcprtd:MSVCP110D.dll
+ 0004:000004a8       __imp_?good@ios_base@std@@QBE_NXZ 100174a8     msvcprtd:MSVCP110D.dll
+ 0004:000004ac       __imp_?flags@ios_base@std@@QBEHXZ 100174ac     msvcprtd:MSVCP110D.dll
+ 0004:000004b0       __imp_?width@ios_base@std@@QBE_JXZ 100174b0     msvcprtd:MSVCP110D.dll
+ 0004:000004b4       __imp_?width@ios_base@std@@QAE_J_J@Z 100174b4     msvcprtd:MSVCP110D.dll
+ 0004:000004b8       __imp_??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ 100174b8     msvcprtd:MSVCP110D.dll
+ 0004:000004bc       __imp_??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ 100174bc     msvcprtd:MSVCP110D.dll
+ 0004:000004c0       __imp_?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QBE?AVlocale@2@XZ 100174c0     msvcprtd:MSVCP110D.dll
+ 0004:000004c4       __imp_?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z 100174c4     msvcprtd:MSVCP110D.dll
+ 0004:000004c8       __imp_?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE_JPBD_J@Z 100174c8     msvcprtd:MSVCP110D.dll
+ 0004:000004cc       __imp_?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ 100174cc     msvcprtd:MSVCP110D.dll
+ 0004:000004d0       __imp_?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ 100174d0     msvcprtd:MSVCP110D.dll
+ 0004:000004d4       __imp_?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ 100174d4     msvcprtd:MSVCP110D.dll
+ 0004:000004d8       __imp_?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ 100174d8     msvcprtd:MSVCP110D.dll
+ 0004:000004dc       __imp_?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD00@Z 100174dc     msvcprtd:MSVCP110D.dll
+ 0004:000004e0       __imp_?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ 100174e0     msvcprtd:MSVCP110D.dll
+ 0004:000004e4       __imp_?_Gndec@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ 100174e4     msvcprtd:MSVCP110D.dll
+ 0004:000004e8       __imp_?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ 100174e8     msvcprtd:MSVCP110D.dll
+ 0004:000004ec       __imp_?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ 100174ec     msvcprtd:MSVCP110D.dll
+ 0004:000004f0       __imp_?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXXZ 100174f0     msvcprtd:MSVCP110D.dll
+ 0004:000004f4       __imp_?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAPAD0PAH001@Z 100174f4     msvcprtd:MSVCP110D.dll
+ 0004:000004f8       __imp_??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ 100174f8     msvcprtd:MSVCP110D.dll
+ 0004:000004fc       __imp_?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z 100174fc     msvcprtd:MSVCP110D.dll
+ 0004:00000500       __imp_?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z 10017500     msvcprtd:MSVCP110D.dll
+ 0004:00000504       __imp_?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ 10017504     msvcprtd:MSVCP110D.dll
+ 0004:00000508       __imp_?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ 10017508     msvcprtd:MSVCP110D.dll
+ 0004:0000050c       __imp_?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDXZ 1001750c     msvcprtd:MSVCP110D.dll
+ 0004:00000510       __imp_??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ 10017510     msvcprtd:MSVCP110D.dll
+ 0004:00000514       __imp_??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z 10017514     msvcprtd:MSVCP110D.dll
+ 0004:00000518       __imp_??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UAE@XZ 10017518     msvcprtd:MSVCP110D.dll
+ 0004:0000051c       __imp_?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEXXZ 1001751c     msvcprtd:MSVCP110D.dll
+ 0004:00000520       __imp_?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ 10017520     msvcprtd:MSVCP110D.dll
+ 0004:00000524       __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z 10017524     msvcprtd:MSVCP110D.dll
+ 0004:00000528       __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z 10017528     msvcprtd:MSVCP110D.dll
+ 0004:0000052c       __imp_?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ 1001752c     msvcprtd:MSVCP110D.dll
+ 0004:00000530       __imp_?endl@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@1@AAV21@@Z 10017530     msvcprtd:MSVCP110D.dll
+ 0004:00000534       __imp_?_Fiopen@std@@YAPAU_iobuf@@PBDHH@Z 10017534     msvcprtd:MSVCP110D.dll
+ 0004:00000538       __imp_?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ 10017538     msvcprtd:MSVCP110D.dll
+ 0004:0000053c       __imp_?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JXZ 1001753c     msvcprtd:MSVCP110D.dll
+ 0004:00000540       __imp_?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z 10017540     msvcprtd:MSVCP110D.dll
+ 0004:00000544       __imp_?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z 10017544     msvcprtd:MSVCP110D.dll
+ 0004:00000548       __imp_??Bid@locale@std@@QAEIXZ 10017548     msvcprtd:MSVCP110D.dll
+ 0004:0000054c       __imp_?id@?$codecvt@DDH@std@@2V0locale@2@A 1001754c     msvcprtd:MSVCP110D.dll
+ 0004:00000550       __imp_??2@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z 10017550     msvcprtd:MSVCP110D.dll
+ 0004:00000554       __imp_??3@YAXPAXABU_DebugHeapTag_t@std@@PADH@Z 10017554     msvcprtd:MSVCP110D.dll
+ 0004:00000558       __imp_?_DebugHeapTag_func@std@@YAABU_DebugHeapTag_t@1@XZ 10017558     msvcprtd:MSVCP110D.dll
+ 0004:0000055c       __imp_??0_Lockit@std@@QAE@H@Z 1001755c     msvcprtd:MSVCP110D.dll
+ 0004:00000560       __imp_??1_Lockit@std@@QAE@XZ 10017560     msvcprtd:MSVCP110D.dll
+ 0004:00000564       __imp_?uncaught_exception@std@@YA_NXZ 10017564     msvcprtd:MSVCP110D.dll
+ 0004:00000568       __imp_?_Debug_message@std@@YAXPB_W0I@Z 10017568     msvcprtd:MSVCP110D.dll
+ 0004:0000056c       __imp_??0_Container_base12@std@@QAE@XZ 1001756c     msvcprtd:MSVCP110D.dll
+ 0004:00000570       __imp_??1_Container_base12@std@@QAE@XZ 10017570     msvcprtd:MSVCP110D.dll
+ 0004:00000574       __imp_?_BADOFF@std@@3_JB   10017574     msvcprtd:MSVCP110D.dll
+ 0004:00000578       __imp_?_Orphan_all@_Container_base12@std@@QAEXXZ 10017578     msvcprtd:MSVCP110D.dll
+ 0004:0000057c       __imp_?_Xbad_alloc@std@@YAXXZ 1001757c     msvcprtd:MSVCP110D.dll
+ 0004:00000580       __imp_?_Xlength_error@std@@YAXPBD@Z 10017580     msvcprtd:MSVCP110D.dll
+ 0004:00000584       __imp_?_Xout_of_range@std@@YAXPBD@Z 10017584     msvcprtd:MSVCP110D.dll
+ 0004:00000588       \177MSVCP110D_NULL_THUNK_DATA 10017588     msvcprtd:MSVCP110D.dll
+ 0004:000005e4       __imp__fgetc               100175e4     MSVCRTD:MSVCR110D.dll
+ 0004:000005e8       __imp__fgetpos             100175e8     MSVCRTD:MSVCR110D.dll
+ 0004:000005ec       __imp__fputc               100175ec     MSVCRTD:MSVCR110D.dll
+ 0004:000005f0       __imp__fsetpos             100175f0     MSVCRTD:MSVCR110D.dll
+ 0004:000005f4       __imp___fseeki64           100175f4     MSVCRTD:MSVCR110D.dll
+ 0004:000005f8       __imp__fwrite              100175f8     MSVCRTD:MSVCR110D.dll
+ 0004:000005fc       __imp__setvbuf             100175fc     MSVCRTD:MSVCR110D.dll
+ 0004:00000600       __imp__ungetc              10017600     MSVCRTD:MSVCR110D.dll
+ 0004:00000604       __imp___lock_file          10017604     MSVCRTD:MSVCR110D.dll
+ 0004:00000608       __imp___unlock_file        10017608     MSVCRTD:MSVCR110D.dll
+ 0004:0000060c       __imp__free                1001760c     MSVCRTD:MSVCR110D.dll
+ 0004:00000610       __imp_??_V@YAXPAX@Z        10017610     MSVCRTD:MSVCR110D.dll
+ 0004:00000614       __imp___CrtDbgReportW      10017614     MSVCRTD:MSVCR110D.dll
+ 0004:00000618       __imp_??0bad_cast@std@@QAE@PBD@Z 10017618     MSVCRTD:MSVCR110D.dll
+ 0004:0000061c       __imp___strdate_s          1001761c     MSVCRTD:MSVCR110D.dll
+ 0004:00000620       __imp___strtime_s          10017620     MSVCRTD:MSVCR110D.dll
+ 0004:00000624       __imp_??0bad_cast@std@@QAE@ABV01@@Z 10017624     MSVCRTD:MSVCR110D.dll
+ 0004:00000628       __imp_??0exception@std@@QAE@ABV01@@Z 10017628     MSVCRTD:MSVCR110D.dll
+ 0004:0000062c       __imp_??1bad_cast@std@@UAE@XZ 1001762c     MSVCRTD:MSVCR110D.dll
+ 0004:00000630       __imp___CxxThrowException@8 10017630     MSVCRTD:MSVCR110D.dll
+ 0004:00000634       __imp____CxxFrameHandler3  10017634     MSVCRTD:MSVCR110D.dll
+ 0004:00000638       __imp___lock               10017638     MSVCRTD:MSVCR110D.dll
+ 0004:0000063c       __imp___unlock             1001763c     MSVCRTD:MSVCR110D.dll
+ 0004:00000640       __imp___calloc_dbg         10017640     MSVCRTD:MSVCR110D.dll
+ 0004:00000644       __imp____dllonexit         10017644     MSVCRTD:MSVCR110D.dll
+ 0004:00000648       __imp___onexit             10017648     MSVCRTD:MSVCR110D.dll
+ 0004:0000064c       __imp___CRT_RTC_INITW      1001764c     MSVCRTD:MSVCR110D.dll
+ 0004:00000650       __imp_??1type_info@@UAE@XZ 10017650     MSVCRTD:MSVCR110D.dll
+ 0004:00000654       __imp____CppXcptFilter     10017654     MSVCRTD:MSVCR110D.dll
+ 0004:00000658       __imp___amsg_exit          10017658     MSVCRTD:MSVCR110D.dll
+ 0004:0000065c       __imp___malloc_dbg         1001765c     MSVCRTD:MSVCR110D.dll
+ 0004:00000660       __imp___free_dbg           10017660     MSVCRTD:MSVCR110D.dll
+ 0004:00000664       __imp___CrtSetCheckCount   10017664     MSVCRTD:MSVCR110D.dll
+ 0004:00000668       __imp___initterm           10017668     MSVCRTD:MSVCR110D.dll
+ 0004:0000066c       __imp___initterm_e         1001766c     MSVCRTD:MSVCR110D.dll
+ 0004:00000670       __imp___except_handler4_common 10017670     MSVCRTD:MSVCR110D.dll
+ 0004:00000674       __imp___crt_debugger_hook  10017674     MSVCRTD:MSVCR110D.dll
+ 0004:00000678       __imp____crtUnhandledException 10017678     MSVCRTD:MSVCR110D.dll
+ 0004:0000067c       __imp____crtTerminateProcess 1001767c     MSVCRTD:MSVCR110D.dll
+ 0004:00000680       __imp_?terminate@@YAXXZ    10017680     MSVCRTD:MSVCR110D.dll
+ 0004:00000684       __imp____clean_type_info_names_internal 10017684     MSVCRTD:MSVCR110D.dll
+ 0004:00000688       __imp__wcscpy_s            10017688     MSVCRTD:MSVCR110D.dll
+ 0004:0000068c       __imp___wmakepath_s        1001768c     MSVCRTD:MSVCR110D.dll
+ 0004:00000690       __imp___wsplitpath_s       10017690     MSVCRTD:MSVCR110D.dll
+ 0004:00000694       __imp__fflush              10017694     MSVCRTD:MSVCR110D.dll
+ 0004:00000698       __imp__fclose              10017698     MSVCRTD:MSVCR110D.dll
+ 0004:0000069c       __imp__memmove             1001769c     MSVCRTD:MSVCR110D.dll
+ 0004:000006a0       __imp__strlen              100176a0     MSVCRTD:MSVCR110D.dll
+ 0004:000006a4       __imp__memcpy_s            100176a4     MSVCRTD:MSVCR110D.dll
+ 0004:000006a8       __imp__memcpy              100176a8     MSVCRTD:MSVCR110D.dll
+ 0004:000006ac       __imp___invalid_parameter  100176ac     MSVCRTD:MSVCR110D.dll
+ 0004:000006b0       __imp_??3@YAXPAX@Z         100176b0     MSVCRTD:MSVCR110D.dll
+ 0004:000006b4       __imp_??2@YAPAXI@Z         100176b4     MSVCRTD:MSVCR110D.dll
+ 0004:000006b8       __imp___purecall           100176b8     MSVCRTD:MSVCR110D.dll
+ 0004:000006bc       __imp__memset              100176bc     MSVCRTD:MSVCR110D.dll
+ 0004:000006c0       \177MSVCR110D_NULL_THUNK_DATA 100176c0     MSVCRTD:MSVCR110D.dll
+ 0004:00000718       __imp__AT_Flush@4          10017718     atcorem:atcore.dll
+ 0004:0000071c       __imp__AT_WaitBuffer@16    1001771c     atcorem:atcore.dll
+ 0004:00000720       __imp__AT_QueueBuffer@12   10017720     atcorem:atcore.dll
+ 0004:00000724       __imp__AT_Command@8        10017724     atcorem:atcore.dll
+ 0004:00000728       __imp__AT_SetEnumeratedString@12 10017728     atcorem:atcore.dll
+ 0004:0000072c       __imp__AT_SetBool@12       1001772c     atcorem:atcore.dll
+ 0004:00000730       __imp__AT_SetFloat@16      10017730     atcorem:atcore.dll
+ 0004:00000734       __imp__AT_GetInt@12        10017734     atcorem:atcore.dll
+ 0004:00000738       __imp__AT_Close@4          10017738     atcorem:atcore.dll
+ 0004:0000073c       __imp__AT_Open@8           1001773c     atcorem:atcore.dll
+ 0004:00000740       __imp__AT_FinaliseLibrary@0 10017740     atcorem:atcore.dll
+ 0004:00000744       __imp__AT_InitialiseLibrary@0 10017744     atcorem:atcore.dll
+ 0004:00000748       \177atcore_NULL_THUNK_DATA 10017748     atcorem:atcore.dll
+
+ entry point at        0001:000094b0
+

@@ -1,0 +1,968 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InstallerBuilderProject>
+  <Installer>
+    <ProductName>UMController</ProductName>
+    <InstallerExecutableName>Setup.exe</InstallerExecutableName>
+    <ScheduleReboot>true</ScheduleReboot>
+    <ProductVersion>1.0.39</ProductVersion>
+    <UpgradeCode>{DB56797C-7011-43C8-9143-C2F1A8C7F93C}</UpgradeCode>
+    <Publisher>Klaus Becker, TU-Wien, July 2016</Publisher>
+    <AllowDirectorySelection>true</AllowDirectorySelection>
+    <SelectedProducts>
+      <ProductSelection>
+        <Product>
+          <Id>{595095A0-D88B-4BEA-A161-5ACE9AE4E2C3}</Id>
+          <UpgradeCode>1390f370-3330-4d86-b912-f33815472b7c</UpgradeCode>
+          <Name>NI-DAQmx .NET Language Runtime  for .NET Framework 4.5</Name>
+          <Version>19.0.49153</Version>
+          <Description>NI-DAQmx .NET Language Runtime  for .NET Framework 4.5</Description>
+          <InstallerInformation>
+            <Path>C:\ProgramData\National Instruments\MDF\ProductCache\</Path>
+            <Title>Local Cache</Title>
+            <Type>Cached</Type>
+          </InstallerInformation>
+          <FlavorId>_full_</FlavorId>
+          <FlavorDisplayName>Runtime</FlavorDisplayName>
+        </Product>
+        <RemovedSoftDependencies />
+        <UseSpecificVersion>false</UseSpecificVersion>
+        <Features />
+        <Properties />
+      </ProductSelection>
+      <ProductSelection>
+        <Product>
+          <Id>{7E251A78-47D9-411B-8DAB-7A3E0355A968}</Id>
+          <UpgradeCode>91d6aa11-20d5-4b08-8b68-94b9eb728535</UpgradeCode>
+          <Name>NI-DAQmx .NET Language Runtime  for .NET Framework 4.5.1</Name>
+          <Version>19.0.49153</Version>
+          <Description>NI-DAQmx .NET Language Runtime  for .NET Framework 4.5.1</Description>
+          <InstallerInformation>
+            <Path>C:\ProgramData\National Instruments\MDF\ProductCache\</Path>
+            <Title>Local Cache</Title>
+            <Type>Cached</Type>
+          </InstallerInformation>
+          <FlavorId>_full_</FlavorId>
+          <FlavorDisplayName>Runtime</FlavorDisplayName>
+        </Product>
+        <RemovedSoftDependencies />
+        <UseSpecificVersion>false</UseSpecificVersion>
+        <Features />
+        <Properties />
+      </ProductSelection>
+      <ProductSelection>
+        <Product>
+          <Id>{9914B946-4676-4136-8900-79B5228863A6}</Id>
+          <UpgradeCode>36fe40af-6da0-447a-90a3-1a62e6350f03</UpgradeCode>
+          <Name>NI Common Runtime 19.0 for .NET Framework 4.0</Name>
+          <Version>19.0.49152</Version>
+          <Description>NI Common Runtime 19.0 for .NET Framework 4.0</Description>
+          <InstallerInformation>
+            <Path>C:\ProgramData\National Instruments\MDF\ProductCache\</Path>
+            <Title>Local Cache</Title>
+            <Type>Cached</Type>
+          </InstallerInformation>
+          <FlavorId>Full</FlavorId>
+          <FlavorDisplayName>Full</FlavorDisplayName>
+        </Product>
+        <RemovedSoftDependencies />
+        <UseSpecificVersion>false</UseSpecificVersion>
+        <Features />
+        <Properties />
+      </ProductSelection>
+      <ProductSelection>
+        <Product>
+          <Id>{66189E1A-430C-411A-B675-127BEBD36BE5}</Id>
+          <UpgradeCode>36fe40af-6da0-447a-90a3-1a62e6350f03</UpgradeCode>
+          <Name>NI Measurement Studio Common Runtime 19.1 for .NET Framework 4.0</Name>
+          <Version>19.10.49152</Version>
+          <Description>NI Measurement Studio Common Runtime 19.1 for .NET Framework 4.0</Description>
+          <InstallerInformation>
+            <Path>C:\ProgramData\National Instruments\MDF\ProductCache\</Path>
+            <Title>Local Cache</Title>
+            <Type>Cached</Type>
+          </InstallerInformation>
+          <FlavorId>Full</FlavorId>
+          <FlavorDisplayName>Full</FlavorDisplayName>
+        </Product>
+        <RemovedSoftDependencies />
+        <UseSpecificVersion>false</UseSpecificVersion>
+        <Features />
+        <Properties />
+      </ProductSelection>
+      <ProductSelection>
+        <Product>
+          <Id>{7BCBAD6D-509E-421E-9693-7765C68EB23D}</Id>
+          <UpgradeCode>8ed6f20a-c4a5-4264-bc6a-88a82ae713ff</UpgradeCode>
+          <Name>NI UI.Styles3D Runtime 19.0 for .NET Framework 4.0</Name>
+          <Version>19.0.49152</Version>
+          <Description>NI UI.Styles3D Runtime 19.0 for .NET Framework 4.0</Description>
+          <InstallerInformation>
+            <Path>C:\ProgramData\National Instruments\MDF\ProductCache\</Path>
+            <Title>Local Cache</Title>
+            <Type>Cached</Type>
+          </InstallerInformation>
+          <FlavorId>Full</FlavorId>
+          <FlavorDisplayName>Full</FlavorDisplayName>
+        </Product>
+        <RemovedSoftDependencies />
+        <UseSpecificVersion>false</UseSpecificVersion>
+        <Features />
+        <Properties />
+      </ProductSelection>
+      <ProductSelection>
+        <Product>
+          <Id>{498AAE23-5851-48E3-A599-7B6E4C345262}</Id>
+          <UpgradeCode>7db29f96-8f66-4428-ab4a-6efcfd3e1719</UpgradeCode>
+          <Name>NI UI Runtime 19.0 for .NET Framework 4.5</Name>
+          <Version>19.0.49152</Version>
+          <Description>NI UI Runtime 19.0 for .NET Framework 4.5</Description>
+          <InstallerInformation>
+            <Path>C:\ProgramData\National Instruments\MDF\ProductCache\</Path>
+            <Title>Local Cache</Title>
+            <Type>Cached</Type>
+          </InstallerInformation>
+          <FlavorId>Full</FlavorId>
+          <FlavorDisplayName>Full</FlavorDisplayName>
+        </Product>
+        <RemovedSoftDependencies />
+        <UseSpecificVersion>false</UseSpecificVersion>
+        <Features />
+        <Properties />
+      </ProductSelection>
+      <ProductSelection>
+        <Product>
+          <Id>{E444195C-C122-416A-AEB7-782DEF88F926}</Id>
+          <UpgradeCode>c00e5bdb-b6e7-4ea4-83f5-c4ce1e13ee2e</UpgradeCode>
+          <Name>NI UI.WinForms Runtime 19.0 for .NET Framework 4.5</Name>
+          <Version>19.0.49152</Version>
+          <Description>NI UI.WinForms Runtime 19.0 for .NET Framework 4.5</Description>
+          <InstallerInformation>
+            <Path>C:\ProgramData\National Instruments\MDF\ProductCache\</Path>
+            <Title>Local Cache</Title>
+            <Type>Cached</Type>
+          </InstallerInformation>
+          <FlavorId>Full</FlavorId>
+          <FlavorDisplayName>Full</FlavorDisplayName>
+        </Product>
+        <RemovedSoftDependencies />
+        <UseSpecificVersion>false</UseSpecificVersion>
+        <Features />
+        <Properties />
+      </ProductSelection>
+      <ProductSelection>
+        <Product>
+          <Id>{B6B9FA29-1F2F-49A5-9E82-80C47FD27802}</Id>
+          <UpgradeCode>a0865ca8-e3fc-4fa2-ae33-3b027dafff94</UpgradeCode>
+          <Name>NI PXI Platform Services Runtime 21.0</Name>
+          <Version>21.0.49348</Version>
+          <Description>Implements the PXI software specifications, allows auto-identification for PXI Express systems, and provides PXI services to other NI products.</Description>
+          <InstallerInformation>
+            <Path>C:\ProgramData\National Instruments\MDF\ProductCache\</Path>
+            <Title>Local Cache</Title>
+            <Type>Cached</Type>
+          </InstallerInformation>
+          <FlavorId>_full_</FlavorId>
+          <FlavorDisplayName>Runtime</FlavorDisplayName>
+        </Product>
+        <RemovedSoftDependencies />
+        <UseSpecificVersion>false</UseSpecificVersion>
+        <Features />
+        <Properties />
+      </ProductSelection>
+      <ProductSelection>
+        <Product>
+          <Id>{61DA2A53-6B57-448F-882D-E9E5046052E1}</Id>
+          <UpgradeCode>923c9cd5-a0d8-4147-9a8d-998780e30763</UpgradeCode>
+          <Name>NI-DAQmx Runtime 21.0</Name>
+          <Version>21.0.49316</Version>
+          <Description>Run-time components required to deploy applications using National Instruments data acquisition devices.</Description>
+          <InstallerInformation>
+            <Path>C:\ProgramData\National Instruments\MDF\ProductCache\</Path>
+            <Title>Local Cache</Title>
+            <Type>Cached</Type>
+          </InstallerInformation>
+          <FlavorId>_full_</FlavorId>
+          <FlavorDisplayName>Runtime</FlavorDisplayName>
+        </Product>
+        <RemovedSoftDependencies />
+        <UseSpecificVersion>false</UseSpecificVersion>
+        <Features />
+        <Properties />
+      </ProductSelection>
+      <ProductSelection>
+        <Product>
+          <Id>{A0447396-1842-4223-97F6-9A2A801AE122}</Id>
+          <UpgradeCode>1390f370-3330-4d86-b912-f33815472b7c</UpgradeCode>
+          <Name>NI-DAQmx .NET Language Runtime  for .NET Framework 4.5</Name>
+          <Version>21.0.49316</Version>
+          <Description>NI-DAQmx .NET Language Runtime  for .NET Framework 4.5</Description>
+          <InstallerInformation>
+            <Path>C:\ProgramData\National Instruments\MDF\ProductCache\</Path>
+            <Title>Local Cache</Title>
+            <Type>Cached</Type>
+          </InstallerInformation>
+          <FlavorId>_full_</FlavorId>
+          <FlavorDisplayName>Runtime</FlavorDisplayName>
+        </Product>
+        <RemovedSoftDependencies />
+        <UseSpecificVersion>false</UseSpecificVersion>
+        <Features />
+        <Properties />
+      </ProductSelection>
+      <ProductSelection>
+        <Product>
+          <Id>{F6C0FC9B-C0C2-45F6-A110-44F7DC2F29BC}</Id>
+          <UpgradeCode>d55a5e79-6475-487e-90b5-2fecaeb7c2b7</UpgradeCode>
+          <Name>NI Analysis Runtime 19.0 for .NET Framework 4.5</Name>
+          <Version>19.0.49152</Version>
+          <Description>NI Analysis Runtime 19.0 for .NET Framework 4.5</Description>
+          <InstallerInformation>
+            <Path>C:\ProgramData\National Instruments\MDF\ProductCache\</Path>
+            <Title>Local Cache</Title>
+            <Type>Cached</Type>
+          </InstallerInformation>
+          <FlavorId>Full</FlavorId>
+          <FlavorDisplayName>Full</FlavorDisplayName>
+        </Product>
+        <RemovedSoftDependencies />
+        <UseSpecificVersion>false</UseSpecificVersion>
+        <Features />
+        <Properties />
+      </ProductSelection>
+    </SelectedProducts>
+    <InstallationUISettings>
+      <Language>English</Language>
+      <ReadMeFile />
+      <LicenseFile />
+      <BannerImagePath />
+      <BackgroundImagePath />
+      <WelcomeDialogTitle>UMController</WelcomeDialogTitle>
+      <WelcomeDialogText>Controller Software for UM-Setup</WelcomeDialogText>
+      <SingleDirectoryDialogText />
+      <EnableFeatureTreeDialog>false</EnableFeatureTreeDialog>
+    </InstallationUISettings>
+    <BuildOutputSettings>
+      <BuildMode>MetaInstallerWithPatchSupport</BuildMode>
+      <BuildDirectory>W:\BIO\Software\UMControllerLightInstall</BuildDirectory>
+      <VolumeLabel>Volume</VolumeLabel>
+      <MediaSpanSizeInMegaBytes>0</MediaSpanSizeInMegaBytes>
+    </BuildOutputSettings>
+    <LaunchCondition>
+      <MinimumOperatingSystem>Windows 7</MinimumOperatingSystem>
+      <MaximumOperatingSystem>None</MaximumOperatingSystem>
+      <MinimumDotNetVersion>None</MinimumDotNetVersion>
+    </LaunchCondition>
+    <BitnessMode>X86</BitnessMode>
+    <ApplicationDirectory>
+      <Path>UMController</Path>
+      <RootPath>ProgramFilesFolder</RootPath>
+      <PathType>RelativeToDirectoryTableKey</PathType>
+    </ApplicationDirectory>
+    <PropertyTable />
+    <Files>
+      <FileEntry>
+        <InstallToGAC>false</InstallToGAC>
+        <RegisterAsActiveXServer>false</RegisterAsActiveXServer>
+        <ComponentId>{41F0A63F-B8FD-4CC5-8E5E-8B60C3108C0F}</ComponentId>
+        <SourceFullPath>C:\Users\Klaus Becker\Documents\Files\UMController\UMControllerLight\UMController\bin\x86\Release\AndorNeo.dll</SourceFullPath>
+        <FileName>AndorNeo.dll</FileName>
+        <TargetPath>
+          <Path>UMController</Path>
+          <RootPath>ProgramFilesFolder</RootPath>
+          <PathType>RelativeToDirectoryTableKey</PathType>
+        </TargetPath>
+        <FeatureName />
+        <Condition />
+        <FileAttributeType>Normal</FileAttributeType>
+        <ProgramExecutionAttributesList>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>ResumeAfterRun</Mode>
+            <Condition />
+            <ExecutionTiming>LateDuringInstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>WaitForCompletion</Mode>
+            <Condition />
+            <ExecutionTiming>EarlyDuringUninstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+        </ProgramExecutionAttributesList>
+        <InstallationType>LocalOnly</InstallationType>
+        <FileShortcutAttributes />
+      </FileEntry>
+      <FileEntry>
+        <InstallToGAC>false</InstallToGAC>
+        <RegisterAsActiveXServer>false</RegisterAsActiveXServer>
+        <ComponentId>{D4C128AC-0CEE-47B6-9E63-0C88F37DDD5B}</ComponentId>
+        <SourceFullPath>C:\Users\Klaus Becker\Documents\Files\UMController\UMControllerLight\UMController\bin\x86\Release\AndorZyla.dll</SourceFullPath>
+        <FileName>AndorZyla.dll</FileName>
+        <TargetPath>
+          <Path>UMController</Path>
+          <RootPath>ProgramFilesFolder</RootPath>
+          <PathType>RelativeToDirectoryTableKey</PathType>
+        </TargetPath>
+        <FeatureName />
+        <Condition />
+        <FileAttributeType>Normal</FileAttributeType>
+        <ProgramExecutionAttributesList>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>ResumeAfterRun</Mode>
+            <Condition />
+            <ExecutionTiming>LateDuringInstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>WaitForCompletion</Mode>
+            <Condition />
+            <ExecutionTiming>EarlyDuringUninstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+        </ProgramExecutionAttributesList>
+        <InstallationType>LocalOnly</InstallationType>
+        <FileShortcutAttributes />
+      </FileEntry>
+      <FileEntry>
+        <InstallToGAC>false</InstallToGAC>
+        <RegisterAsActiveXServer>false</RegisterAsActiveXServer>
+        <ComponentId>{02573E6F-A0AB-498D-A826-221B314C1873}</ComponentId>
+        <SourceFullPath>C:\Users\Klaus Becker\Documents\Files\UMController\UMControllerLight\UMController\bin\x86\Release\atblkbx.dll</SourceFullPath>
+        <FileName>atblkbx.dll</FileName>
+        <TargetPath>
+          <Path>UMController</Path>
+          <RootPath>ProgramFilesFolder</RootPath>
+          <PathType>RelativeToDirectoryTableKey</PathType>
+        </TargetPath>
+        <FeatureName />
+        <Condition />
+        <FileAttributeType>Normal</FileAttributeType>
+        <ProgramExecutionAttributesList>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>ResumeAfterRun</Mode>
+            <Condition />
+            <ExecutionTiming>LateDuringInstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>WaitForCompletion</Mode>
+            <Condition />
+            <ExecutionTiming>EarlyDuringUninstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+        </ProgramExecutionAttributesList>
+        <InstallationType>LocalOnly</InstallationType>
+        <FileShortcutAttributes />
+      </FileEntry>
+      <FileEntry>
+        <InstallToGAC>false</InstallToGAC>
+        <RegisterAsActiveXServer>false</RegisterAsActiveXServer>
+        <ComponentId>{45A183C4-2C0F-42A0-BAFB-BAB79CF8639E}</ComponentId>
+        <SourceFullPath>C:\Users\Klaus Becker\Documents\Files\UMController\UMControllerLight\UMController\bin\x86\Release\atcl_bitflow.dll</SourceFullPath>
+        <FileName>atcl_bitflow.dll</FileName>
+        <TargetPath>
+          <Path>UMController</Path>
+          <RootPath>ProgramFilesFolder</RootPath>
+          <PathType>RelativeToDirectoryTableKey</PathType>
+        </TargetPath>
+        <FeatureName />
+        <Condition />
+        <FileAttributeType>Normal</FileAttributeType>
+        <ProgramExecutionAttributesList>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>ResumeAfterRun</Mode>
+            <Condition />
+            <ExecutionTiming>LateDuringInstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>WaitForCompletion</Mode>
+            <Condition />
+            <ExecutionTiming>EarlyDuringUninstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+        </ProgramExecutionAttributesList>
+        <InstallationType>LocalOnly</InstallationType>
+        <FileShortcutAttributes />
+      </FileEntry>
+      <FileEntry>
+        <InstallToGAC>false</InstallToGAC>
+        <RegisterAsActiveXServer>false</RegisterAsActiveXServer>
+        <ComponentId>{C9FB6477-4698-4643-8636-993F4D998484}</ComponentId>
+        <SourceFullPath>C:\Users\Klaus Becker\Documents\Files\UMController\UMControllerLight\UMController\bin\x86\Release\atcore.dll</SourceFullPath>
+        <FileName>atcore.dll</FileName>
+        <TargetPath>
+          <Path>UMController</Path>
+          <RootPath>ProgramFilesFolder</RootPath>
+          <PathType>RelativeToDirectoryTableKey</PathType>
+        </TargetPath>
+        <FeatureName />
+        <Condition />
+        <FileAttributeType>Normal</FileAttributeType>
+        <ProgramExecutionAttributesList>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>ResumeAfterRun</Mode>
+            <Condition />
+            <ExecutionTiming>LateDuringInstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>WaitForCompletion</Mode>
+            <Condition />
+            <ExecutionTiming>EarlyDuringUninstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+        </ProgramExecutionAttributesList>
+        <InstallationType>LocalOnly</InstallationType>
+        <FileShortcutAttributes />
+      </FileEntry>
+      <FileEntry>
+        <InstallToGAC>false</InstallToGAC>
+        <RegisterAsActiveXServer>false</RegisterAsActiveXServer>
+        <ComponentId>{5B57943D-CDFD-41AC-9C5B-12FB2BF57885}</ComponentId>
+        <SourceFullPath>C:\Users\Klaus Becker\Documents\Files\UMController\UMControllerLight\UMController\bin\x86\Release\atdevapogee.dll</SourceFullPath>
+        <FileName>atdevapogee.dll</FileName>
+        <TargetPath>
+          <Path>UMController</Path>
+          <RootPath>ProgramFilesFolder</RootPath>
+          <PathType>RelativeToDirectoryTableKey</PathType>
+        </TargetPath>
+        <FeatureName />
+        <Condition />
+        <FileAttributeType>Normal</FileAttributeType>
+        <ProgramExecutionAttributesList>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>ResumeAfterRun</Mode>
+            <Condition />
+            <ExecutionTiming>LateDuringInstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>WaitForCompletion</Mode>
+            <Condition />
+            <ExecutionTiming>EarlyDuringUninstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+        </ProgramExecutionAttributesList>
+        <InstallationType>LocalOnly</InstallationType>
+        <FileShortcutAttributes />
+      </FileEntry>
+      <FileEntry>
+        <InstallToGAC>false</InstallToGAC>
+        <RegisterAsActiveXServer>false</RegisterAsActiveXServer>
+        <ComponentId>{05BA439F-D9D5-43A1-BA4F-E118D000ADC1}</ComponentId>
+        <SourceFullPath>C:\Users\Klaus Becker\Documents\Files\UMController\UMControllerLight\UMController\bin\x86\Release\atdevregcam.dll</SourceFullPath>
+        <FileName>atdevregcam.dll</FileName>
+        <TargetPath>
+          <Path>UMController</Path>
+          <RootPath>ProgramFilesFolder</RootPath>
+          <PathType>RelativeToDirectoryTableKey</PathType>
+        </TargetPath>
+        <FeatureName />
+        <Condition />
+        <FileAttributeType>Normal</FileAttributeType>
+        <ProgramExecutionAttributesList>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>ResumeAfterRun</Mode>
+            <Condition />
+            <ExecutionTiming>LateDuringInstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>WaitForCompletion</Mode>
+            <Condition />
+            <ExecutionTiming>EarlyDuringUninstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+        </ProgramExecutionAttributesList>
+        <InstallationType>LocalOnly</InstallationType>
+        <FileShortcutAttributes />
+      </FileEntry>
+      <FileEntry>
+        <InstallToGAC>false</InstallToGAC>
+        <RegisterAsActiveXServer>false</RegisterAsActiveXServer>
+        <ComponentId>{C3636E78-4E2B-4ABC-B72B-4EF4F7263DA1}</ComponentId>
+        <SourceFullPath>C:\Users\Klaus Becker\Documents\Files\UMController\UMControllerLight\UMController\bin\x86\Release\atdevsimcam.dll</SourceFullPath>
+        <FileName>atdevsimcam.dll</FileName>
+        <TargetPath>
+          <Path>UMController</Path>
+          <RootPath>ProgramFilesFolder</RootPath>
+          <PathType>RelativeToDirectoryTableKey</PathType>
+        </TargetPath>
+        <FeatureName />
+        <Condition />
+        <FileAttributeType>Normal</FileAttributeType>
+        <ProgramExecutionAttributesList>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>ResumeAfterRun</Mode>
+            <Condition />
+            <ExecutionTiming>LateDuringInstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>WaitForCompletion</Mode>
+            <Condition />
+            <ExecutionTiming>EarlyDuringUninstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+        </ProgramExecutionAttributesList>
+        <InstallationType>LocalOnly</InstallationType>
+        <FileShortcutAttributes />
+      </FileEntry>
+      <FileEntry>
+        <InstallToGAC>false</InstallToGAC>
+        <RegisterAsActiveXServer>false</RegisterAsActiveXServer>
+        <ComponentId>{1CAC32F8-7664-4DA0-A723-91F9464ED44E}</ComponentId>
+        <SourceFullPath>C:\Users\Klaus Becker\Documents\Files\UMController\UMControllerLight\UMController\bin\x86\Release\atmcd32d.dll</SourceFullPath>
+        <FileName>atmcd32d.dll</FileName>
+        <TargetPath>
+          <Path>UMController</Path>
+          <RootPath>ProgramFilesFolder</RootPath>
+          <PathType>RelativeToDirectoryTableKey</PathType>
+        </TargetPath>
+        <FeatureName />
+        <Condition />
+        <FileAttributeType>Normal</FileAttributeType>
+        <ProgramExecutionAttributesList>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>ResumeAfterRun</Mode>
+            <Condition />
+            <ExecutionTiming>LateDuringInstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>WaitForCompletion</Mode>
+            <Condition />
+            <ExecutionTiming>EarlyDuringUninstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+        </ProgramExecutionAttributesList>
+        <InstallationType>LocalOnly</InstallationType>
+        <FileShortcutAttributes />
+      </FileEntry>
+      <FileEntry>
+        <InstallToGAC>false</InstallToGAC>
+        <RegisterAsActiveXServer>false</RegisterAsActiveXServer>
+        <ComponentId>{374626AE-2A42-4B20-8604-D58B08894C25}</ComponentId>
+        <SourceFullPath>C:\Users\Klaus Becker\Documents\Files\UMController\UMControllerLight\UMController\bin\x86\Release\atmcd64d.dll</SourceFullPath>
+        <FileName>atmcd64d.dll</FileName>
+        <TargetPath>
+          <Path>UMController</Path>
+          <RootPath>ProgramFilesFolder</RootPath>
+          <PathType>RelativeToDirectoryTableKey</PathType>
+        </TargetPath>
+        <FeatureName />
+        <Condition />
+        <FileAttributeType>Normal</FileAttributeType>
+        <ProgramExecutionAttributesList>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>ResumeAfterRun</Mode>
+            <Condition />
+            <ExecutionTiming>LateDuringInstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>WaitForCompletion</Mode>
+            <Condition />
+            <ExecutionTiming>EarlyDuringUninstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+        </ProgramExecutionAttributesList>
+        <InstallationType>LocalOnly</InstallationType>
+        <FileShortcutAttributes />
+      </FileEntry>
+      <FileEntry>
+        <InstallToGAC>false</InstallToGAC>
+        <RegisterAsActiveXServer>false</RegisterAsActiveXServer>
+        <ComponentId>{6A51ABAD-628D-4C97-8C41-7983E8BA1780}</ComponentId>
+        <SourceFullPath>C:\Users\Klaus Becker\Documents\Files\UMController\UMControllerLight\UMController\bin\x86\Release\atspooler.dll</SourceFullPath>
+        <FileName>atspooler.dll</FileName>
+        <TargetPath>
+          <Path>UMController</Path>
+          <RootPath>ProgramFilesFolder</RootPath>
+          <PathType>RelativeToDirectoryTableKey</PathType>
+        </TargetPath>
+        <FeatureName />
+        <Condition />
+        <FileAttributeType>Normal</FileAttributeType>
+        <ProgramExecutionAttributesList>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>ResumeAfterRun</Mode>
+            <Condition />
+            <ExecutionTiming>LateDuringInstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>WaitForCompletion</Mode>
+            <Condition />
+            <ExecutionTiming>EarlyDuringUninstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+        </ProgramExecutionAttributesList>
+        <InstallationType>LocalOnly</InstallationType>
+        <FileShortcutAttributes />
+      </FileEntry>
+      <FileEntry>
+        <InstallToGAC>false</InstallToGAC>
+        <RegisterAsActiveXServer>false</RegisterAsActiveXServer>
+        <ComponentId>{167ADDF3-443E-4A68-B46A-AB0B23A909D3}</ComponentId>
+        <SourceFullPath>C:\Users\Klaus Becker\Documents\Files\UMController\UMControllerLight\UMController\bin\x86\Release\atusb_libusb.dll</SourceFullPath>
+        <FileName>atusb_libusb.dll</FileName>
+        <TargetPath>
+          <Path>UMController</Path>
+          <RootPath>ProgramFilesFolder</RootPath>
+          <PathType>RelativeToDirectoryTableKey</PathType>
+        </TargetPath>
+        <FeatureName />
+        <Condition />
+        <FileAttributeType>Normal</FileAttributeType>
+        <ProgramExecutionAttributesList>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>ResumeAfterRun</Mode>
+            <Condition />
+            <ExecutionTiming>LateDuringInstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>WaitForCompletion</Mode>
+            <Condition />
+            <ExecutionTiming>EarlyDuringUninstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+        </ProgramExecutionAttributesList>
+        <InstallationType>LocalOnly</InstallationType>
+        <FileShortcutAttributes />
+      </FileEntry>
+      <FileEntry>
+        <InstallToGAC>false</InstallToGAC>
+        <RegisterAsActiveXServer>false</RegisterAsActiveXServer>
+        <ComponentId>{6C6EA742-772D-4A7A-A63B-6E6A5273E2E5}</ComponentId>
+        <SourceFullPath>C:\Users\Klaus Becker\Documents\Files\UMController\UMControllerLight\UMController\bin\x86\Release\atusb_libusb10.dll</SourceFullPath>
+        <FileName>atusb_libusb10.dll</FileName>
+        <TargetPath>
+          <Path>UMController</Path>
+          <RootPath>ProgramFilesFolder</RootPath>
+          <PathType>RelativeToDirectoryTableKey</PathType>
+        </TargetPath>
+        <FeatureName />
+        <Condition />
+        <FileAttributeType>Normal</FileAttributeType>
+        <ProgramExecutionAttributesList>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>ResumeAfterRun</Mode>
+            <Condition />
+            <ExecutionTiming>LateDuringInstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>WaitForCompletion</Mode>
+            <Condition />
+            <ExecutionTiming>EarlyDuringUninstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+        </ProgramExecutionAttributesList>
+        <InstallationType>LocalOnly</InstallationType>
+        <FileShortcutAttributes />
+      </FileEntry>
+      <FileEntry>
+        <InstallToGAC>false</InstallToGAC>
+        <RegisterAsActiveXServer>false</RegisterAsActiveXServer>
+        <ComponentId>{D9728E0C-3B74-456A-AED9-6AB9CFF231A1}</ComponentId>
+        <SourceFullPath>C:\Users\Klaus Becker\Documents\Files\UMController\UMControllerLight\UMController\bin\x86\Release\atutility.dll</SourceFullPath>
+        <FileName>atutility.dll</FileName>
+        <TargetPath>
+          <Path>UMController</Path>
+          <RootPath>ProgramFilesFolder</RootPath>
+          <PathType>RelativeToDirectoryTableKey</PathType>
+        </TargetPath>
+        <FeatureName />
+        <Condition />
+        <FileAttributeType>Normal</FileAttributeType>
+        <ProgramExecutionAttributesList>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>ResumeAfterRun</Mode>
+            <Condition />
+            <ExecutionTiming>LateDuringInstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>WaitForCompletion</Mode>
+            <Condition />
+            <ExecutionTiming>EarlyDuringUninstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+        </ProgramExecutionAttributesList>
+        <InstallationType>LocalOnly</InstallationType>
+        <FileShortcutAttributes />
+      </FileEntry>
+      <FileEntry>
+        <InstallToGAC>false</InstallToGAC>
+        <RegisterAsActiveXServer>false</RegisterAsActiveXServer>
+        <ComponentId>{5515C196-1803-4662-BBA5-917B5E48DAE6}</ComponentId>
+        <SourceFullPath>C:\Users\Klaus Becker\Documents\Files\UMController\UMControllerLight\UMController\bin\x86\Release\BitMiracle.LibTiff.NET.dll</SourceFullPath>
+        <FileName>BitMiracle.LibTiff.NET.dll</FileName>
+        <TargetPath>
+          <Path>UMController</Path>
+          <RootPath>ProgramFilesFolder</RootPath>
+          <PathType>RelativeToDirectoryTableKey</PathType>
+        </TargetPath>
+        <FeatureName />
+        <Condition />
+        <FileAttributeType>Normal</FileAttributeType>
+        <ProgramExecutionAttributesList>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>ResumeAfterRun</Mode>
+            <Condition />
+            <ExecutionTiming>LateDuringInstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>WaitForCompletion</Mode>
+            <Condition />
+            <ExecutionTiming>EarlyDuringUninstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+        </ProgramExecutionAttributesList>
+        <InstallationType>LocalOnly</InstallationType>
+        <FileShortcutAttributes />
+      </FileEntry>
+      <FileEntry>
+        <InstallToGAC>false</InstallToGAC>
+        <RegisterAsActiveXServer>false</RegisterAsActiveXServer>
+        <ComponentId>{34E1B7A2-FBA4-4BEC-BA4F-631923FE8A32}</ComponentId>
+        <SourceFullPath>C:\Users\Klaus Becker\Documents\Files\UMController\UMControllerLight\UMController\bin\x86\Release\UMController.exe</SourceFullPath>
+        <FileName>UMController.exe</FileName>
+        <TargetPath>
+          <Path>UMController</Path>
+          <RootPath>ProgramFilesFolder</RootPath>
+          <PathType>RelativeToDirectoryTableKey</PathType>
+        </TargetPath>
+        <FeatureName />
+        <Condition />
+        <FileAttributeType>Normal</FileAttributeType>
+        <ProgramExecutionAttributesList>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>ResumeAfterRun</Mode>
+            <Condition />
+            <ExecutionTiming>LateDuringInstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>WaitForCompletion</Mode>
+            <Condition />
+            <ExecutionTiming>EarlyDuringUninstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+        </ProgramExecutionAttributesList>
+        <InstallationType>LocalOnly</InstallationType>
+        <FileShortcutAttributes />
+      </FileEntry>
+      <FileEntry>
+        <InstallToGAC>false</InstallToGAC>
+        <RegisterAsActiveXServer>false</RegisterAsActiveXServer>
+        <ComponentId>{29BF7E8A-0C48-491E-B34C-411D277681C5}</ComponentId>
+        <SourceFullPath>C:\Users\Klaus Becker\Documents\Files\UMController\UMControllerLight\UMController\bin\x86\Release\UMController.exe.config</SourceFullPath>
+        <FileName>UMController.exe.config</FileName>
+        <TargetPath>
+          <Path>UMController</Path>
+          <RootPath>ProgramFilesFolder</RootPath>
+          <PathType>RelativeToDirectoryTableKey</PathType>
+        </TargetPath>
+        <FeatureName />
+        <Condition />
+        <FileAttributeType>Normal</FileAttributeType>
+        <ProgramExecutionAttributesList>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>ResumeAfterRun</Mode>
+            <Condition />
+            <ExecutionTiming>LateDuringInstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+          <ProgramExecutionAttributes>
+            <IsEnabled>false</IsEnabled>
+            <CommandLineArguments />
+            <Mode>WaitForCompletion</Mode>
+            <Condition />
+            <ExecutionTiming>EarlyDuringUninstall</ExecutionTiming>
+          </ProgramExecutionAttributes>
+        </ProgramExecutionAttributesList>
+        <InstallationType>LocalOnly</InstallationType>
+        <FileShortcutAttributes />
+      </FileEntry>
+    </Files>
+    <MergeModules />
+    <Registries />
+    <ApplicationsToRunOnTargetMachine />
+    <MAXConfigurationFile />
+    <InstallerFileSummary>
+      <Title>UMController</Title>
+      <Subject />
+      <Keywords />
+      <Author>Klaus Becker, TU-Wien</Author>
+      <Comments />
+      <ApplicationName />
+      <Security>NoRestriction</Security>
+    </InstallerFileSummary>
+    <WindowsProgramsSettings>
+      <HelpUrl />
+      <PublisherContact />
+      <SupportUrl />
+      <SupportPhone />
+      <ProductUpdatesUrl />
+      <Comments />
+    </WindowsProgramsSettings>
+    <Id>{84373172-55CE-42DF-9EE9-F1574660C9F4}</Id>
+  </Installer>
+  <TargetDirectories>
+    <TargetDirectoryInformation>
+      <TargetPath>
+        <Path />
+        <RootPath>ProgramFilesFolder</RootPath>
+        <PathType>RelativeToDirectoryTableKey</PathType>
+      </TargetPath>
+      <IsUnlockDirectory>false</IsUnlockDirectory>
+    </TargetDirectoryInformation>
+    <TargetDirectoryInformation>
+      <TargetPath>
+        <Path>UMController</Path>
+        <RootPath>ProgramFilesFolder</RootPath>
+        <PathType>RelativeToDirectoryTableKey</PathType>
+      </TargetPath>
+      <IsUnlockDirectory>false</IsUnlockDirectory>
+    </TargetDirectoryInformation>
+  </TargetDirectories>
+  <VersionIncrementMode>IncrementAfterSuccessfulBuild</VersionIncrementMode>
+  <UserNotes />
+  <IsShowRuntimeInstallerOnly>True</IsShowRuntimeInstallerOnly>
+  <IsCustomInstallerName>True</IsCustomInstallerName>
+  <AutoIncludeInstallers>True</AutoIncludeInstallers>
+  <ProductSelectionInfoList>
+    <ProductSelectionInfo>
+      <Id>
+        <ProductId>{595095A0-D88B-4BEA-A161-5ACE9AE4E2C3}</ProductId>
+        <FlavorId>_full_</FlavorId>
+      </Id>
+      <IsInstallerIncludedByUser>False</IsInstallerIncludedByUser>
+      <IsInstallerAutoIncluded>True</IsInstallerAutoIncluded>
+    </ProductSelectionInfo>
+    <ProductSelectionInfo>
+      <Id>
+        <ProductId>{7E251A78-47D9-411B-8DAB-7A3E0355A968}</ProductId>
+        <FlavorId>_full_</FlavorId>
+      </Id>
+      <IsInstallerIncludedByUser>False</IsInstallerIncludedByUser>
+      <IsInstallerAutoIncluded>True</IsInstallerAutoIncluded>
+    </ProductSelectionInfo>
+    <ProductSelectionInfo>
+      <Id>
+        <ProductId>{9914B946-4676-4136-8900-79B5228863A6}</ProductId>
+        <FlavorId>Full</FlavorId>
+      </Id>
+      <IsInstallerIncludedByUser>False</IsInstallerIncludedByUser>
+      <IsInstallerAutoIncluded>True</IsInstallerAutoIncluded>
+    </ProductSelectionInfo>
+    <ProductSelectionInfo>
+      <Id>
+        <ProductId>{66189E1A-430C-411A-B675-127BEBD36BE5}</ProductId>
+        <FlavorId>Full</FlavorId>
+      </Id>
+      <IsInstallerIncludedByUser>False</IsInstallerIncludedByUser>
+      <IsInstallerAutoIncluded>True</IsInstallerAutoIncluded>
+    </ProductSelectionInfo>
+    <ProductSelectionInfo>
+      <Id>
+        <ProductId>{7BCBAD6D-509E-421E-9693-7765C68EB23D}</ProductId>
+        <FlavorId>Full</FlavorId>
+      </Id>
+      <IsInstallerIncludedByUser>False</IsInstallerIncludedByUser>
+      <IsInstallerAutoIncluded>True</IsInstallerAutoIncluded>
+    </ProductSelectionInfo>
+    <ProductSelectionInfo>
+      <Id>
+        <ProductId>{498AAE23-5851-48E3-A599-7B6E4C345262}</ProductId>
+        <FlavorId>Full</FlavorId>
+      </Id>
+      <IsInstallerIncludedByUser>False</IsInstallerIncludedByUser>
+      <IsInstallerAutoIncluded>True</IsInstallerAutoIncluded>
+    </ProductSelectionInfo>
+    <ProductSelectionInfo>
+      <Id>
+        <ProductId>{E444195C-C122-416A-AEB7-782DEF88F926}</ProductId>
+        <FlavorId>Full</FlavorId>
+      </Id>
+      <IsInstallerIncludedByUser>False</IsInstallerIncludedByUser>
+      <IsInstallerAutoIncluded>True</IsInstallerAutoIncluded>
+    </ProductSelectionInfo>
+    <ProductSelectionInfo>
+      <Id>
+        <ProductId>{B6B9FA29-1F2F-49A5-9E82-80C47FD27802}</ProductId>
+        <FlavorId>_full_</FlavorId>
+      </Id>
+      <IsInstallerIncludedByUser>False</IsInstallerIncludedByUser>
+      <IsInstallerAutoIncluded>True</IsInstallerAutoIncluded>
+    </ProductSelectionInfo>
+    <ProductSelectionInfo>
+      <Id>
+        <ProductId>{61DA2A53-6B57-448F-882D-E9E5046052E1}</ProductId>
+        <FlavorId>_full_</FlavorId>
+      </Id>
+      <IsInstallerIncludedByUser>False</IsInstallerIncludedByUser>
+      <IsInstallerAutoIncluded>True</IsInstallerAutoIncluded>
+    </ProductSelectionInfo>
+    <ProductSelectionInfo>
+      <Id>
+        <ProductId>{A0447396-1842-4223-97F6-9A2A801AE122}</ProductId>
+        <FlavorId>_full_</FlavorId>
+      </Id>
+      <IsInstallerIncludedByUser>False</IsInstallerIncludedByUser>
+      <IsInstallerAutoIncluded>True</IsInstallerAutoIncluded>
+    </ProductSelectionInfo>
+    <ProductSelectionInfo>
+      <Id>
+        <ProductId>{F6C0FC9B-C0C2-45F6-A110-44F7DC2F29BC}</ProductId>
+        <FlavorId>Full</FlavorId>
+      </Id>
+      <IsInstallerIncludedByUser>False</IsInstallerIncludedByUser>
+      <IsInstallerAutoIncluded>True</IsInstallerAutoIncluded>
+    </ProductSelectionInfo>
+  </ProductSelectionInfoList>
+  <DigitalSignatureProperties>
+    <IsDigitallySignInstallerExe>False</IsDigitallySignInstallerExe>
+    <DigitalCertificateStore>MY</DigitalCertificateStore>
+    <CertificateName>Klaus Becker</CertificateName>
+    <TimeStampUrl />
+    <DescriptionUrl />
+  </DigitalSignatureProperties>
+</InstallerBuilderProject>
